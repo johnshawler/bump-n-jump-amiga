@@ -1,0 +1,20 @@
+BUMP 'N' JUMP — NATIVE A1200 DEVELOPMENT HANDOFF
+Prepared October 19, 2026, New York.
+
+Open A1200-TIPS-AND-TRICKS.md for the consolidated engineering guide.
+Open STATUS-AND-NEXT-STEPS.md before continuing implementation.
+Open PROJECT-FILE-MAP.md to locate original source and evidence files.
+source/task-findings.json preserves the progress/final messages from all
+available turns in the dedicated Port Bump ’n’ Jump task.
+source/latest-project-status-excerpts.txt contains the latest README/handoff
+changes recovered from that task. SHA256SUMS.txt covers packaged files.
+
+This is a documentation handoff, not a runnable game or complete source tree.
+The original project is on a separate Windows host. Its source files, ROM,
+executables, captures and full machine-readable test receipts are NOT copied
+into this ZIP. Paths and commands are locators from recorded project evidence;
+they were not executed or revalidated on this Mac.
+
+Current target: stock PAL A1200, 68EC020, AGA, 2 MiB Chip, no Fast/Slow RAM.
+Earlier 68000/1 MiB/OCS results are historical, not current A1200 benchmarks.
+No real-A1200 hardware validation or finished playable port is established.

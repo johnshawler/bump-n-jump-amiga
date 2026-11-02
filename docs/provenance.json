@@ -1457,6 +1457,20 @@
       "published_path": "docs/release-checksums/SHA256SUMS.txt",
       "published_sha256": "694bfadba5810f538fb7cc71259f0232ab41a8a86bc5fda0f6be8d064b534552",
       "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-18/Bump-N-Jump-Native-A1200-Handoff.zip!Bump-N-Jump-A1200-Handoff/START-HERE.txt",
+      "source_sha256": "59c6e2edf2c2929fcc3d87001a66bf25dfddac922972461a9153087ed849400a",
+      "published_path": "docs/handoff-2026-10-19/START-HERE.txt",
+      "published_sha256": "59c6e2edf2c2929fcc3d87001a66bf25dfddac922972461a9153087ed849400a",
+      "modification": "Archive text preserved; local username path redacted if present. References to included raw conversation dumps describe the original archive, not this filtered repository."
+    },
+    {
+      "source": "local-2026-10-18/Bump-N-Jump-Native-A1200-Handoff.zip!Bump-N-Jump-A1200-Handoff/SHA256SUMS.txt",
+      "source_sha256": "6f185cca90abd594c92fbff10c55f78ea415d6a82e0c099659d2aec8ebd0f340",
+      "published_path": "docs/handoff-2026-10-19/SHA256SUMS.txt",
+      "published_sha256": "6f185cca90abd594c92fbff10c55f78ea415d6a82e0c099659d2aec8ebd0f340",
+      "modification": "Archive text preserved; local username path redacted if present. References to included raw conversation dumps describe the original archive, not this filtered repository."
     }
   ]
 }

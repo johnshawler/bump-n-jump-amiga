@@ -1,6 +1,6 @@
 # Building the recovered Mac version
 
-These instructions cover the recovered stage-select working tree, not the missing DX/WHDLoad release. Regeneration and building were not run during this publication task. Historic source-package reports describe previous builds of complete local packages that included generated game data. The public tree intentionally omits those files.
+These instructions cover the recovered stage-select working tree, not the missing DX/WHDLoad patch-based release. Regeneration and building were not run during this publication task. Historic source-package reports describe previous builds of complete local packages that included generated game data. The public tree intentionally omits those files.
 
 ## Dependencies and private inputs
 

@@ -2,7 +2,7 @@
 
 Recovered port code, generators, development tools and historical reports for an experimental Bump ’n’ Jump Amiga port. Target: stock PAL A1200, 68EC020, AGA, 2 MiB Chip RAM, no expansion RAM or JIT.
 
-**This is a partial source archive. The later DX/WHDLoad source and release files have not been recovered.** The root contains the latest preserved Mac working files from October 20, 2026, including stage selection, saved high scores and continue. It is not the later DX release. No playable binary, original game ROM, cartridge-derived generated code, graphics, audio or Kickstart is distributed here.
+**This is a partial source archive. The later DX/WHDLoad patch/build materials and release files have not been recovered.** The root contains the latest preserved Mac working files from October 20, 2026, including stage selection, saved high scores and continue. It is not the later DX release. No playable binary, original game ROM, cartridge-derived generated code, graphics, audio or Kickstart is distributed here.
 
 ## Contents
 
@@ -21,7 +21,7 @@ See [build instructions](docs/BUILD.md), [provenance and exclusions](docs/PROVEN
 
 The preserved Mac reports describe CPU/reference comparisons, renderer comparisons, input replay, score persistence and emulator observations in their stated scopes. They do not establish physical A1200 validation or a completed full campaign. Audio and PPU handling have known approximations; heavy scenes can slow down.
 
-The separate later DX/WHDLoad development record reported stock PAL A1200 **FS-UAE** checks for gameplay, cold-boot high scores and F10/Escape exit, with the 50 FPS target still unmet. Those later source files, releases and machine-readable receipts are unavailable in this archive, so those claims have not been independently verified during consolidation.
+The separate later DX/WHDLoad development record reported stock PAL A1200 **FS-UAE** checks for gameplay, cold-boot high scores and F10/Escape exit, with the 50 FPS target still unmet. That task patched a compiled game image; original source/build files were not supplied. Its later patch/build materials, releases and machine-readable receipts are unavailable in this archive, so those claims have not been independently verified during consolidation.
 
 ## Credits
 

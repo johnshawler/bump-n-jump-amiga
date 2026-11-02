@@ -19,15 +19,17 @@ Earlier Windows project locators in the handoff notes are historical references,
 
 The generators are supplied so an owner can reconstruct the missing cartridge-derived inputs privately. Generated files remain ignored. No claim is made that the public checkout is a ready-to-run game or that its complete regeneration has been validated during consolidation.
 
-## Later material unavailable
+## Later patch-based work and unavailable material
 
-The separate October 25 DX/WHDLoad development record describes a cloud project at `/workspace/bumpnjump`, including `tools/build.py`, `tools/build_whdload.py`, `tools/package_whdload.py`, `tools/build_stage_music.py`, native/menu changes, `delivery/WHDLOAD-RELEASE.md`, `delivery/whdload-manifest.json`, and validation receipts under `evidence/whdload-final-validation/`.
+The separate October 25 DX/WHDLoad task began from an HDF containing a compiled `BumpNJump`, startup files and high scores. Original source/build files were requested but were not supplied. This was a binary-patching task, not evidence of an available complete original source tree.
+
+The later record describes patch/build tooling in a cloud project at `/workspace/bumpnjump`, including `tools/build.py`, `tools/build_whdload.py`, `tools/package_whdload.py`, `tools/build_stage_music.py`, native/menu changes, `delivery/WHDLOAD-RELEASE.md`, `delivery/whdload-manifest.json`, and validation receipts under `evidence/whdload-final-validation/`.
 
 The following final outputs were recorded there but not located on this Mac or resolved in Library searches:
 
 - `/workspace/bumpnjump/delivery/BumpNJump-DX-WHDLoad.lha`
 - `/workspace/bumpnjump/delivery/BumpNJump-DX-WHDLoad.zip`
 - `/workspace/bumpnjump/delivery/BumpNJumpDX/` and its slave/data files
-- The complete corresponding DX source, resource inputs, dependency versions and validation receipts
+- The later patch/build scripts, wrapper/native/menu changes, resource inputs, dependency versions and validation receipts
 
-These paths identify missing material on a different host; they are not local paths or download links. The original cloud task was readable as a development record, but was not resumed and its filesystem could not be retrieved with the available tools. Recovering that tree is necessary before this repository can represent the full later DX project. Any recovered additions need the same cartridge-data and rights review before publication.
+These paths identify missing material on a different host; they are not local paths or download links. The original cloud task was readable as a development record, but was not resumed and its filesystem could not be retrieved with the available tools. Recovering those patch/build materials and final outputs is necessary before this repository can document the full later DX effort. Even that recovery would not establish that the original pre-patch source was ever supplied. Any recovered additions need the same cartridge-data and rights review before publication.
