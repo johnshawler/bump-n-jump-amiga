@@ -1,0 +1,9 @@
+Observed test_intrinsics.py result on final C fast paths:
+0x8092 PASS 3000 randomized original-ROM comparisons
+0xaa44 PASS 3000 randomized original-ROM comparisons
+0xb4f1 PASS 3000 randomized original-ROM comparisons
+0xa920 PASS 3000 randomized original-ROM comparisons
+0xb476 PASS 3000 randomized original-ROM comparisons
+0xb3a4 PASS 3000 randomized original-ROM comparisons
+0xb4b6 PASS 3000 randomized original-ROM comparisons
+0x8109 PASS 3000 randomized original-ROM comparisons

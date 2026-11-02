@@ -1,0 +1,8 @@
+{
+  "ranking_cases": 1000,
+  "round_trip": true,
+  "corruptions_rejected": 96,
+  "checksummed_invalid_records_rejected": 4,
+  "old_generation_rejected": true,
+  "score_decode": 123456
+}

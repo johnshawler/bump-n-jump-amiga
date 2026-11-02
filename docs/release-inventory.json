@@ -1,0 +1,310 @@
+[
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/BumpNJump-A1200-60Hz.fs-uae",
+    "size": 776,
+    "sha256": "3e0f3d5d5cbfa41f8bd036f9f4e58619be06db0930debb8312d626ad34c438fc",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/BumpNJump-A1200-60Hz.hdf",
+    "size": 8388608,
+    "sha256": "7333fe799b33a31aced3cacbbf2a6d48a656aca7becba57b124757562df05fda",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/Game-Event-Audio.wav",
+    "size": 635108,
+    "sha256": "c76243a4e249e3c2a35943de10d918bfdd7a882b7cc8a59098ee698753f8c88e",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/Gameplay.png",
+    "size": 7449,
+    "sha256": "be2e235759e0e8bd2377fa87168468e54b1cd4e033905bda16dd7e13989c1ff4",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/Play-BumpNJump-60Hz.command",
+    "size": 110,
+    "sha256": "698d27357a29ec6e64b89e6cee2c63065f348cde0ff72e168a414763613d7a4e",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/Read-Me.txt",
+    "size": 2648,
+    "sha256": "d6878e49278c0a28c512a1c139687d40b489b386175fc0133b400b1cecd1c1f8",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/SHA256SUMS.txt",
+    "size": 693,
+    "sha256": "f77858945a3899e468361c491921857f0a0725c5da48f67a5b77db5e96cab14a",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/Verification.json",
+    "size": 100151,
+    "sha256": "6db7b2d6c968eab93f321be005c0435bd488519493b3a752ac0b97d883dc0210",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz/Verified-Raster.png",
+    "size": 10309,
+    "sha256": "06a6c805ac6c16a39931566ca473b9144a04cd70ce6f5549fa4c9356b119fd84",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz-SHA256SUMS.txt",
+    "size": 301,
+    "sha256": "0cd759a9f784f683c0be0a5610d18123a8271e14b578b7c68b341760e96459e8",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz-Source.zip",
+    "size": 1059261,
+    "sha256": "22cf20075bc7f95d329bd343dae421d50e195fb2a906351d3d42eb263612f1bc",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-60Hz.zip",
+    "size": 892960,
+    "sha256": "d421da70d5cfdc94139c1b2ebb81c84197037e595dd5db002fcd96d75adb3fdc",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized/BumpNJump-A1200-Optimized.fs-uae",
+    "size": 772,
+    "sha256": "7ddd1948a3ec43316895fe17c045833dde99c95832e24fdf52369a38227955c3",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized/BumpNJump-A1200-Optimized.hdf",
+    "size": 8388608,
+    "sha256": "aa0387e5250bb86ce74111b2ae2d4f8c934bacf9a18bcc3f0e1a19d8f3661775",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized/Gameplay.png",
+    "size": 7577,
+    "sha256": "1bd89fe1708e24fde7f539e03f1f643484a4237da32c9d19e7eb00ea91e45369",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized/Play-BumpNJump-Optimized.command",
+    "size": 115,
+    "sha256": "485b7842cba906e38f67485d2373f1185fbc1624f30c742268131d44ef70c3dc",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized/Read-Me.txt",
+    "size": 3059,
+    "sha256": "538777f953c3b688401e6a247998b81a223f6829b34c0c32d9378dd4ac654d9c",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized/SHA256SUMS.txt",
+    "size": 621,
+    "sha256": "6e6ee4901cfaeb38527f209fb5be7d73f84829df65c15542a67f534c8b89aebf",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized/Verification.json",
+    "size": 6216,
+    "sha256": "6fda52f4914a1f98ef2e17788cf7887237ef60811cf1731985181276de3bd200",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized/Verified-Raster.png",
+    "size": 10491,
+    "sha256": "dad2e7d3ba231df04d1cd65758c4e672b24a88fd8947ddb3df76fcbfe00c9dd2",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized-SHA256SUMS.txt",
+    "size": 321,
+    "sha256": "e93c5b8815d6c9f183de3b26c9e1716559f8cf97a8d61bb1e81704752da3279f",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized-Source.zip",
+    "size": 957915,
+    "sha256": "68f00b8c6a95db9c8cf44595bb94df10ab1df5182f797a902f4410b4a73deb58",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Optimized.zip",
+    "size": 444658,
+    "sha256": "3f6ed2dab4c2b3cf462fbc4df0058a101b3ecee2fa1522aad1919591dff82644",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-Source.zip",
+    "size": 929084,
+    "sha256": "01ee1e1aa7db63a8493145d32024c4b4345e60f3cc91c7ecb70c446fbd4392a1",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/BumpNJump-A1200-StageSelect.fs-uae",
+    "size": 754,
+    "sha256": "286946d43797867fad03a771e6a00b43cb689e23db7f64093e18bce5aa891397",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/BumpNJump-A1200-StageSelect.hdf",
+    "size": 8388608,
+    "sha256": "4b9b6f119e5315e085a62431a77b8bbed735256e502702ced68fb5c2c9c496f4",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/Continue.png",
+    "size": 2870,
+    "sha256": "276e4f9999b8e40773cd7a04695a4ca2b312c30b7005544f9dd80938769e0043",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/Gameplay.png",
+    "size": 5334,
+    "sha256": "e045187444eaa168b6f82cd9eec9bd1411b531035ef23a0b0c0e513cec97f51a",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/High-Scores.png",
+    "size": 3534,
+    "sha256": "66710693f59d2b521f6fc0d5cb3760337e83654609143702453e56c68b74e59d",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/Play-BumpNJump.command",
+    "size": 117,
+    "sha256": "f9d2616ffad9b0d4ed0ed67562a51c4bfbc6dc4f96abf6c875435799f3e0697c",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/Read-Me.txt",
+    "size": 3636,
+    "sha256": "d8a8b751aaec1b13ec647a20f76d2095cc151ad4bc42f57dd195cba409e2954c",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/Stage-Select.png",
+    "size": 4519,
+    "sha256": "1fd7416874de75bbe31592ba974ddeae83de53225a427ff41048c2b65bc279d6",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect/Verification.json",
+    "size": 41299,
+    "sha256": "0f79d7fe86d5622bf81c0315c4dc7a969c6ae79979c70219926ca9a9d1e02d9f",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect-SHA256SUMS.txt",
+    "size": 301,
+    "sha256": "377ac5a0305bd2b4c163a18efd9d11d266819dd8f628521b788ef2309c71fafb",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect-Source.zip",
+    "size": 1044852,
+    "sha256": "d08154e262964b77b36d6b7adcd2b685fb58cda2a11bf428d03bcc38581969d3",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200-StageSelect.zip",
+    "size": 456566,
+    "sha256": "d51e8e111038786e7eb9bb2684818ff28c9228db0e7b2c168fc0ac453013949f",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200.fs-uae",
+    "size": 752,
+    "sha256": "e522ec75cb5e081e5efc734734eb83404f9b50655a04f86df67fe56067705577",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200.hdf",
+    "size": 8388608,
+    "sha256": "8420102b3776f02e2b32c10b374b1adde8fc1dbf96ef8e0aab10e25c54a54132",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200.png",
+    "size": 7568,
+    "sha256": "8dae130df4de25b9cc3bade8625954f848c54d07baa021e5b38827f0fb01670b",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/BumpNJump-A1200.zip",
+    "size": 432261,
+    "sha256": "7dfc0129a88ee45313a4bcbb7c397a3bf803852d4881a6317eb90de546286ca3",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/Play-BumpNJump.command",
+    "size": 105,
+    "sha256": "039ae25204c262845a943fc3309a4dc89d1ea7ce5f143b06253a55ff861e6308",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/Read-Me.txt",
+    "size": 2615,
+    "sha256": "93c9f2587202e441ab660c0d8261a811a4c70ece4fdd09b427b8e6df6767965b",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/SHA256SUMS.txt",
+    "size": 691,
+    "sha256": "694bfadba5810f538fb7cc71259f0232ab41a8a86bc5fda0f6be8d064b534552",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  },
+  {
+    "path": "outputs/Verification.json",
+    "size": 4525,
+    "sha256": "8ae4a47626140f02088bba579cd78c26bfaf6e7e6fefb6db8a7456caa5fa3c77",
+    "published": false,
+    "reason": "Original release retained locally; binaries, screenshots, audio and archives can contain original-game material or unreviewed contents. Checksums are also copied separately."
+  }
+]

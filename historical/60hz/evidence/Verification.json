@@ -1,0 +1,5100 @@
+{
+  "date": "2026-10-20 America/New_York",
+  "status": "experimental playable port with prioritized original game clock",
+  "source_ROM_sha256": "40e45122fc9ecbda7e94a18c3b4ff6b5022675220872bbc6f02107ec842ce6a6",
+  "hdf_sha256": "7333fe799b33a31aced3cacbbf2a6d48a656aca7becba57b124757562df05fda",
+  "hdf_bytes": 8388608,
+  "executable_sha256": "eaa9a760253d091234b22959514a0e5a642692fe7c8c76a0fae6987e586b0a9c",
+  "executable_bytes": 1240096,
+  "target": {
+    "machine": "PAL A1200",
+    "cpu": "68EC020",
+    "chip_bytes": 2097152,
+    "fast_bytes": 0,
+    "slow_bytes": 0,
+    "z3_bytes": 0,
+    "jit": false,
+    "kickstart": "3.1 rev 40.68",
+    "cpu_timing": "real, cycle exact"
+  },
+  "filesystem": {
+    "type": "plain FFS partition hardfile",
+    "block_bytes": 512,
+    "sectors": 32,
+    "surfaces": 1,
+    "reserved_blocks": 2,
+    "executable_readback_sha256_matches": true
+  },
+  "changes": [
+    "Scanline-based original approximately 60.1-Hz game clock",
+    "Game and audio service between bounded rendering work pieces",
+    "Immutable background, OAM, palette and display-register snapshots",
+    "Visible physical tile cache with independent wrap-copy validity",
+    "Vertical-blank IRQ publishes a completed copper list",
+    "Native return and indirect dispatch retain the jump table in A6 and avoid redundant PC storage",
+    "Paula period/volume and envelopes published on every source tick",
+    "Every due source tick retained; no object removal or gameplay-rule changes"
+  ],
+  "timing": {
+    "same_script_stress": {
+      "ticks": 1803,
+      "emulated_run_scanlines": 467285,
+      "mean_game_updates_hz": 60.09577318681318,
+      "publications": 418,
+      "mean_display_fps": 13.932353406593407,
+      "pending_at_exit": 0,
+      "maximum_pending_including_loading": 22,
+      "cpu_profile_scanlines": 226255,
+      "render_profile_scanlines": 177518,
+      "idle_profile_scanlines": 16068,
+      "full_cache_invalidations": 5,
+      "physical_tiles_rebuilt": 22994,
+      "error": 0
+    },
+    "long_restart_run": {
+      "ticks": 6001,
+      "emulated_run_scanlines": 1555563,
+      "mean_game_updates_hz": 60.084999624701794,
+      "publications": 1278,
+      "mean_display_fps": 12.795972258018478,
+      "pending_at_exit": 1,
+      "maximum_pending_including_loading": 22,
+      "cpu_profile_scanlines": 819783,
+      "render_profile_scanlines": 557755,
+      "idle_profile_scanlines": 43038,
+      "full_cache_invalidations": 9,
+      "physical_tiles_rebuilt": 73244,
+      "error": 0
+    },
+    "controller_run": {
+      "ticks": 1353,
+      "emulated_run_scanlines": 351043,
+      "mean_game_updates_hz": 60.02988617804656,
+      "publications": 421,
+      "mean_display_fps": 18.67892245451412,
+      "pending_at_exit": 1,
+      "maximum_pending_including_loading": 22,
+      "cpu_profile_scanlines": 129601,
+      "render_profile_scanlines": 160617,
+      "idle_profile_scanlines": 16045,
+      "full_cache_invalidations": 5,
+      "physical_tiles_rebuilt": 15396,
+      "error": 0
+    },
+    "crowded_window_900_1500": {
+      "window": "crowded_900_1500",
+      "ticks": 600,
+      "mean_update_hz": 60.09783460750589,
+      "mean_CPU_audio_ms": 12.720434091284712,
+      "max_CPU_audio_ms": 16.11549615259544,
+      "max_update_start_gap_ms": 20.674062793369448,
+      "lowest_60_tick_window_hz": 59.869579857774355,
+      "highest_60_tick_window_hz": 60.325625976373374
+    },
+    "all_scene12_windows_first_4096_long_run": {
+      "consecutive_60_tick_windows_in_scene_12": 2427,
+      "minimum_update_hz": 59.86190967907244,
+      "maximum_update_hz": 92.18745901154186,
+      "excludes_loading_and_menu_scenes": true
+    },
+    "previous_optimized_same_script": {
+      "fields": 1549,
+      "processed_source_ticks": 1811,
+      "publications": 601,
+      "mean_display_fps": 19.36861207230471,
+      "mean_simulation_hz": 58.363654680438984,
+      "pending_ticks": 52,
+      "max_pending_ticks": 111,
+      "cpu_profile_scanlines": 232240,
+      "render_profile_scanlines": 169166,
+      "wait_profile_scanlines": 79227,
+      "full_redraws": 5,
+      "dirty_tiles": 20780,
+      "error": 0
+    },
+    "scope": "Finite stock-cycle emulation. Crowded-window one-second rates use 60 consecutive tick-start intervals. Whole-run rates include menus and loading. The longer test restarts through title state. Loading pauses can be followed by catch-up above 60 Hz; loading is not a steady-clock claim. Visible frame rate can be lower than in the preceding build because logic/audio receive priority. Profiling scanline counts are approximate."
+  },
+  "validation": {
+    "controller_native": {
+      "ticks": 1353,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 1125,
+      "publications": 421,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    },
+    "stress_native": {
+      "ticks": 1803,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 1498,
+      "publications": 418,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    },
+    "long_restart_run_native": {
+      "ticks": 6001,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 4986,
+      "publications": 1278,
+      "max_cpu_fields": 19,
+      "max_render_fields": 9
+    },
+    "stress_per_tick_CPU_audio": {
+      "source_ticks": 1803,
+      "per_tick_records_checked": 1803,
+      "per_tick_CPU_state_hash": "PASS",
+      "all_original_ROM_APU_writes_in_order": "PASS",
+      "total_original_APU_register_writes": 4454,
+      "audio_publications": 1803,
+      "audio_published_once_per_source_tick": true,
+      "final_APU_registers": "PASS",
+      "timing": [
+        {
+          "window": "whole_recording",
+          "ticks": 1803,
+          "mean_update_hz": 60.098710934191,
+          "mean_CPU_audio_ms": 8.056982457315454,
+          "max_CPU_audio_ms": 378.9388776598338,
+          "max_update_start_gap_ms": 379.2599034796066,
+          "lowest_60_tick_window_hz": 44.088708812983576,
+          "highest_60_tick_window_hz": 94.27058125693533
+        },
+        {
+          "window": "gameplay_700_1500",
+          "ticks": 800,
+          "mean_update_hz": 60.096786118971956,
+          "mean_CPU_audio_ms": 12.22715116705213,
+          "max_CPU_audio_ms": 16.11549615259544,
+          "max_update_start_gap_ms": 20.674062793369448,
+          "lowest_60_tick_window_hz": 59.869579857774355,
+          "highest_60_tick_window_hz": 60.325625976373374
+        },
+        {
+          "window": "crowded_900_1500",
+          "ticks": 600,
+          "mean_update_hz": 60.09783460750589,
+          "mean_CPU_audio_ms": 12.720434091284712,
+          "max_CPU_audio_ms": 16.11549615259544,
+          "max_update_start_gap_ms": 20.674062793369448,
+          "lowest_60_tick_window_hz": 59.869579857774355,
+          "highest_60_tick_window_hz": 60.325625976373374
+        }
+      ],
+      "game_event_transitions": [
+        {
+          "source_tick": 901,
+          "player_mode": 5,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              58
+            ]
+          ]
+        },
+        {
+          "source_tick": 933,
+          "player_mode": 6,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 965,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 997,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 998,
+          "player_mode": 0,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 1031,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              184
+            ]
+          ]
+        },
+        {
+          "source_tick": 1046,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              181
+            ]
+          ]
+        },
+        {
+          "source_tick": 1081,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              58
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 1113,
+          "player_mode": 6,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              185
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 1145,
+          "player_mode": 7,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              177
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 1177,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1178,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              181
+            ]
+          ]
+        },
+        {
+          "source_tick": 1206,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 1225,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 1253,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 1261,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16388,
+              187
+            ],
+            [
+              16384,
+              188
+            ],
+            [
+              16386,
+              91
+            ]
+          ]
+        },
+        {
+          "source_tick": 1293,
+          "player_mode": 6,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16388,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 1325,
+          "player_mode": 7,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 1357,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1358,
+          "player_mode": 0,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 1377,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              48
+            ]
+          ]
+        },
+        {
+          "source_tick": 1392,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1441,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              58
+            ],
+            [
+              16388,
+              188
+            ],
+            [
+              16384,
+              179
+            ]
+          ]
+        },
+        {
+          "source_tick": 1473,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 1505,
+          "player_mode": 7,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 1537,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1538,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 1539,
+          "player_mode": 9,
+          "source_audio_writes": 18,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              146
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              184
+            ],
+            [
+              16395,
+              14
+            ],
+            [
+              16388,
+              48
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16401,
+              0
+            ],
+            [
+              16402,
+              0
+            ],
+            [
+              16403,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              184
+            ],
+            [
+              16387,
+              14
+            ]
+          ]
+        },
+        {
+          "source_tick": 1571,
+          "player_mode": 10,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              191
+            ],
+            [
+              16386,
+              155
+            ]
+          ]
+        },
+        {
+          "source_tick": 1603,
+          "player_mode": 11,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              177
+            ],
+            [
+              16386,
+              27
+            ]
+          ]
+        },
+        {
+          "source_tick": 1635,
+          "player_mode": 15,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1733,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        }
+      ],
+      "scope": "Source ROM audio requests and native publication cadence checked; Paula synthesis remains approximate."
+    },
+    "long_per_tick_CPU_audio": {
+      "source_ticks": 6001,
+      "per_tick_records_checked": 4096,
+      "per_tick_CPU_state_hash": "PASS",
+      "all_original_ROM_APU_writes_in_order": "PASS",
+      "total_original_APU_register_writes": 16300,
+      "audio_publications": 6001,
+      "audio_published_once_per_source_tick": true,
+      "final_APU_registers": "PASS",
+      "timing": [
+        {
+          "window": "whole_recording",
+          "ticks": 4096,
+          "mean_update_hz": 60.098691418540156,
+          "mean_CPU_audio_ms": 8.282168323450426,
+          "max_CPU_audio_ms": 378.9388776598338,
+          "max_update_start_gap_ms": 379.32410864356115,
+          "lowest_60_tick_window_hz": 44.07831102306494,
+          "highest_60_tick_window_hz": 94.3086357856494
+        },
+        {
+          "window": "gameplay_700_1500",
+          "ticks": 800,
+          "mean_update_hz": 60.09852748275928,
+          "mean_CPU_audio_ms": 12.224342191129118,
+          "max_CPU_audio_ms": 16.243906480504567,
+          "max_update_start_gap_ms": 20.609857629414883,
+          "lowest_60_tick_window_hz": 59.87341568426447,
+          "highest_60_tick_window_hz": 60.33341545613015
+        },
+        {
+          "window": "crowded_900_1500",
+          "ticks": 600,
+          "mean_update_hz": 60.099770337492664,
+          "mean_CPU_audio_ms": 12.717544858906756,
+          "max_CPU_audio_ms": 16.243906480504567,
+          "max_update_start_gap_ms": 20.54565246546032,
+          "lowest_60_tick_window_hz": 59.87341568426447,
+          "highest_60_tick_window_hz": 60.33341545613015
+        }
+      ],
+      "game_event_transitions": [
+        {
+          "source_tick": 901,
+          "player_mode": 5,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              58
+            ]
+          ]
+        },
+        {
+          "source_tick": 933,
+          "player_mode": 6,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 965,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 997,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 998,
+          "player_mode": 0,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 1031,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              184
+            ]
+          ]
+        },
+        {
+          "source_tick": 1046,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              181
+            ]
+          ]
+        },
+        {
+          "source_tick": 1081,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              58
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 1113,
+          "player_mode": 6,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              185
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 1145,
+          "player_mode": 7,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              177
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 1177,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1178,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              181
+            ]
+          ]
+        },
+        {
+          "source_tick": 1206,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 1225,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 1253,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 1261,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16388,
+              187
+            ],
+            [
+              16384,
+              188
+            ],
+            [
+              16386,
+              91
+            ]
+          ]
+        },
+        {
+          "source_tick": 1293,
+          "player_mode": 6,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16388,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 1325,
+          "player_mode": 7,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 1357,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1358,
+          "player_mode": 0,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 1377,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              48
+            ]
+          ]
+        },
+        {
+          "source_tick": 1392,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1441,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              58
+            ],
+            [
+              16388,
+              188
+            ],
+            [
+              16384,
+              179
+            ]
+          ]
+        },
+        {
+          "source_tick": 1473,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 1505,
+          "player_mode": 7,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 1537,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1538,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 1539,
+          "player_mode": 9,
+          "source_audio_writes": 18,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              146
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              184
+            ],
+            [
+              16395,
+              14
+            ],
+            [
+              16388,
+              48
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16401,
+              0
+            ],
+            [
+              16402,
+              0
+            ],
+            [
+              16403,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              184
+            ],
+            [
+              16387,
+              14
+            ]
+          ]
+        },
+        {
+          "source_tick": 1571,
+          "player_mode": 10,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              191
+            ],
+            [
+              16386,
+              155
+            ]
+          ]
+        },
+        {
+          "source_tick": 1603,
+          "player_mode": 11,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              177
+            ],
+            [
+              16386,
+              27
+            ]
+          ]
+        },
+        {
+          "source_tick": 1635,
+          "player_mode": 15,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1733,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1981,
+          "player_mode": 5,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              187
+            ],
+            [
+              16384,
+              179
+            ]
+          ]
+        },
+        {
+          "source_tick": 2013,
+          "player_mode": 6,
+          "source_audio_writes": 10,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              146
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16388,
+              181
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 2045,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              53
+            ],
+            [
+              16388,
+              181
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 2077,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              181
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 2078,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              179
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              180
+            ]
+          ]
+        },
+        {
+          "source_tick": 2091,
+          "player_mode": 2,
+          "source_audio_writes": 9,
+          "register_writes": [
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              103
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              179
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16384,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 2106,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 2161,
+          "player_mode": 5,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16384,
+              176
+            ]
+          ]
+        },
+        {
+          "source_tick": 2193,
+          "player_mode": 6,
+          "source_audio_writes": 9,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              146
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 2225,
+          "player_mode": 7,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              53
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 2257,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              187
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 2258,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              187
+            ]
+          ]
+        },
+        {
+          "source_tick": 2272,
+          "player_mode": 2,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              57
+            ],
+            [
+              16398,
+              8
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 2287,
+          "player_mode": 0,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              179
+            ]
+          ]
+        },
+        {
+          "source_tick": 2312,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              187
+            ]
+          ]
+        },
+        {
+          "source_tick": 2327,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 2341,
+          "player_mode": 5,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              179
+            ]
+          ]
+        },
+        {
+          "source_tick": 2373,
+          "player_mode": 6,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              146
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16390,
+              201
+            ],
+            [
+              16391,
+              8
+            ],
+            [
+              16388,
+              189
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 2405,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              53
+            ],
+            [
+              16388,
+              185
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 2437,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 2438,
+          "player_mode": 0,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 2477,
+          "player_mode": 9,
+          "source_audio_writes": 18,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              184
+            ],
+            [
+              16395,
+              14
+            ],
+            [
+              16388,
+              48
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16401,
+              0
+            ],
+            [
+              16402,
+              0
+            ],
+            [
+              16403,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              184
+            ],
+            [
+              16387,
+              14
+            ]
+          ]
+        },
+        {
+          "source_tick": 2509,
+          "player_mode": 10,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              191
+            ],
+            [
+              16386,
+              155
+            ]
+          ]
+        },
+        {
+          "source_tick": 2541,
+          "player_mode": 11,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              177
+            ],
+            [
+              16386,
+              27
+            ]
+          ]
+        },
+        {
+          "source_tick": 2573,
+          "player_mode": 15,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 2671,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 3032,
+          "player_mode": 2,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              180
+            ],
+            [
+              16384,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 3047,
+          "player_mode": 0,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              251
+            ],
+            [
+              16395,
+              10
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16388,
+              189
+            ]
+          ]
+        },
+        {
+          "source_tick": 3053,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 3061,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16388,
+              186
+            ],
+            [
+              16384,
+              188
+            ],
+            [
+              16386,
+              91
+            ]
+          ]
+        },
+        {
+          "source_tick": 3093,
+          "player_mode": 6,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              51
+            ],
+            [
+              16398,
+              8
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              177
+            ]
+          ]
+        },
+        {
+          "source_tick": 3125,
+          "player_mode": 7,
+          "source_audio_writes": 11,
+          "register_writes": [
+            [
+              16398,
+              0
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              201
+            ],
+            [
+              16395,
+              8
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              201
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16384,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 3157,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 3158,
+          "player_mode": 0,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              179
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 3230,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              48
+            ]
+          ]
+        },
+        {
+          "source_tick": 3241,
+          "player_mode": 5,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              56
+            ],
+            [
+              16398,
+              11
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              189
+            ]
+          ]
+        },
+        {
+          "source_tick": 3273,
+          "player_mode": 6,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              180
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 3305,
+          "player_mode": 7,
+          "source_audio_writes": 10,
+          "register_writes": [
+            [
+              16398,
+              0
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              146
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 3337,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 3338,
+          "player_mode": 2,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 3354,
+          "player_mode": 9,
+          "source_audio_writes": 18,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              146
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              184
+            ],
+            [
+              16395,
+              14
+            ],
+            [
+              16388,
+              48
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16401,
+              0
+            ],
+            [
+              16402,
+              0
+            ],
+            [
+              16403,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              184
+            ],
+            [
+              16387,
+              14
+            ]
+          ]
+        },
+        {
+          "source_tick": 3386,
+          "player_mode": 10,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              191
+            ],
+            [
+              16386,
+              155
+            ]
+          ]
+        },
+        {
+          "source_tick": 3418,
+          "player_mode": 11,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              177
+            ],
+            [
+              16386,
+              27
+            ]
+          ]
+        },
+        {
+          "source_tick": 3450,
+          "player_mode": 15,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 4034,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 4501,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              58
+            ],
+            [
+              16388,
+              186
+            ],
+            [
+              16384,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 4533,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              180
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 4565,
+          "player_mode": 7,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 4597,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 4598,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              179
+            ]
+          ]
+        },
+        {
+          "source_tick": 4610,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16388,
+              181
+            ],
+            [
+              16384,
+              180
+            ]
+          ]
+        },
+        {
+          "source_tick": 4631,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 4681,
+          "player_mode": 5,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              58
+            ]
+          ]
+        },
+        {
+          "source_tick": 4713,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 4745,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 4777,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              186
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 4778,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              185
+            ]
+          ]
+        },
+        {
+          "source_tick": 4812,
+          "player_mode": 2,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16398,
+              0
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16384,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 4827,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              187
+            ]
+          ]
+        },
+        {
+          "source_tick": 4835,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              185
+            ]
+          ]
+        },
+        {
+          "source_tick": 4850,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              181
+            ]
+          ]
+        },
+        {
+          "source_tick": 4861,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16388,
+              178
+            ],
+            [
+              16384,
+              179
+            ],
+            [
+              16386,
+              91
+            ]
+          ]
+        },
+        {
+          "source_tick": 4893,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              186
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 4925,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16388,
+              184
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 4957,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 4958,
+          "player_mode": 2,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 4973,
+          "player_mode": 0,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              57
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 4977,
+          "player_mode": 9,
+          "source_audio_writes": 18,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              26
+            ],
+            [
+              16395,
+              10
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              184
+            ],
+            [
+              16395,
+              14
+            ],
+            [
+              16388,
+              48
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16401,
+              0
+            ],
+            [
+              16402,
+              0
+            ],
+            [
+              16403,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              184
+            ],
+            [
+              16387,
+              14
+            ]
+          ]
+        },
+        {
+          "source_tick": 5009,
+          "player_mode": 10,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              191
+            ],
+            [
+              16386,
+              155
+            ]
+          ]
+        },
+        {
+          "source_tick": 5041,
+          "player_mode": 11,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              177
+            ],
+            [
+              16386,
+              27
+            ]
+          ]
+        },
+        {
+          "source_tick": 5073,
+          "player_mode": 15,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 5171,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 5401,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              177
+            ]
+          ]
+        },
+        {
+          "source_tick": 5433,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              184
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 5465,
+          "player_mode": 7,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              53
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 5497,
+          "player_mode": 1,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 5498,
+          "player_mode": 0,
+          "source_audio_writes": 14,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 5531,
+          "player_mode": 2,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              53
+            ],
+            [
+              16388,
+              181
+            ],
+            [
+              16384,
+              180
+            ]
+          ]
+        },
+        {
+          "source_tick": 5546,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 5581,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              180
+            ],
+            [
+              16384,
+              176
+            ]
+          ]
+        },
+        {
+          "source_tick": 5613,
+          "player_mode": 6,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 5645,
+          "player_mode": 7,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              53
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 5677,
+          "player_mode": 1,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 5678,
+          "player_mode": 0,
+          "source_audio_writes": 14,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              150
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 5761,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              184
+            ]
+          ]
+        },
+        {
+          "source_tick": 5793,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 5825,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              53
+            ],
+            [
+              16388,
+              187
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 5857,
+          "player_mode": 1,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 5858,
+          "player_mode": 2,
+          "source_audio_writes": 14,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              177
+            ]
+          ]
+        },
+        {
+          "source_tick": 5873,
+          "player_mode": 0,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              57
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 5941,
+          "player_mode": 5,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16388,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 5973,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              177
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        }
+      ],
+      "scope": "Source ROM audio requests and native publication cadence checked; Paula synthesis remains approximate."
+    },
+    "controller_per_tick_CPU_audio": {
+      "source_ticks": 1353,
+      "per_tick_records_checked": 1353,
+      "per_tick_CPU_state_hash": "PASS",
+      "all_original_ROM_APU_writes_in_order": "PASS",
+      "total_original_APU_register_writes": 2932,
+      "audio_publications": 1353,
+      "audio_published_once_per_source_tick": true,
+      "final_APU_registers": "PASS",
+      "timing": [
+        {
+          "window": "whole_recording",
+          "ticks": 1353,
+          "mean_update_hz": 60.087877591062785,
+          "mean_CPU_audio_ms": 6.150076462435613,
+          "max_CPU_audio_ms": 379.00308282378836,
+          "max_update_start_gap_ms": 379.32410864356115,
+          "lowest_60_tick_window_hz": 44.086628862574884,
+          "highest_60_tick_window_hz": 94.18507075186453
+        },
+        {
+          "window": "gameplay_700_1500",
+          "ticks": 653,
+          "mean_update_hz": 60.07813110413006,
+          "mean_CPU_audio_ms": 9.213686835917667,
+          "max_CPU_audio_ms": 15.088213529322422,
+          "max_update_start_gap_ms": 20.481447301505757,
+          "lowest_60_tick_window_hz": 59.869579857774355,
+          "highest_60_tick_window_hz": 60.32173199070487
+        },
+        {
+          "window": "crowded_900_1500",
+          "ticks": 453,
+          "mean_update_hz": 60.06614320793836,
+          "mean_CPU_audio_ms": 8.494640831021654,
+          "max_CPU_audio_ms": 15.088213529322422,
+          "max_update_start_gap_ms": 20.481447301505757,
+          "lowest_60_tick_window_hz": 59.869579857774355,
+          "highest_60_tick_window_hz": 60.30226960056785
+        }
+      ],
+      "game_event_transitions": [
+        {
+          "source_tick": 768,
+          "player_mode": 5,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16398,
+              0
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16388,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 800,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              185
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 832,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 864,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 865,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 900,
+          "player_mode": 2,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16398,
+              0
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              103
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              179
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16384,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 923,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 956,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              180
+            ]
+          ]
+        },
+        {
+          "source_tick": 971,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1128,
+          "player_mode": 5,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              53
+            ]
+          ]
+        },
+        {
+          "source_tick": 1160,
+          "player_mode": 6,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ],
+            [
+              16384,
+              176
+            ]
+          ]
+        },
+        {
+          "source_tick": 1192,
+          "player_mode": 7,
+          "source_audio_writes": 9,
+          "register_writes": [
+            [
+              16398,
+              0
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16388,
+              188
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 1224,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1225,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              179
+            ]
+          ]
+        }
+      ],
+      "scope": "Source ROM audio requests and native publication cadence checked; Paula synthesis remains approximate."
+    },
+    "actual_completed_raster": {
+      "actual_emulated_raster": "PASS",
+      "viewport_source_pixels": 61440,
+      "display_pixels": 245760,
+      "mismatches": 0,
+      "raster_origin": [
+        138,
+        52
+      ],
+      "capture": "paused"
+    },
+    "actual_Paula_output_capture": {
+      "actual_emulated_Paula_PCM_capture": "PASS",
+      "format": "44100 Hz stereo signed 16-bit",
+      "field_to_sample_mapping": "emulator output callback CSV",
+      "source_jump_tick": 768,
+      "subsequent_player_state_2_tick": 900,
+      "clips": [
+        {
+          "event": "jump",
+          "emulator_field": 1289,
+          "seconds": 1.9998185941043083,
+          "RMS": 4662.280942100597,
+          "peak": 13634
+        },
+        {
+          "event": "subsequent_gameplay",
+          "emulator_field": 1399,
+          "seconds": 1.3003174603174603,
+          "RMS": 4275.963665575514,
+          "peak": 11092
+        }
+      ],
+      "scope": "Real emulator sound output; original ROM audio requests are checked separately by verify_clock_audio.py. No subjective listening claim."
+    },
+    "jump_landing_hold_release": {
+      "jump_sequences": [
+        {
+          "start_tick": 768,
+          "next_non_jump_tick": 864,
+          "duration_ticks": 96,
+          "landing_mode": 1,
+          "release_tick": 913,
+          "retrigger_before_release": false
+        },
+        {
+          "start_tick": 1128,
+          "next_non_jump_tick": 1224,
+          "duration_ticks": 96,
+          "landing_mode": 1,
+          "release_tick": 1244,
+          "retrigger_before_release": false
+        }
+      ],
+      "reference_replay_of_exact_native_hardware_inputs": "PASS"
+    },
+    "snapshot_visible_cache_renderer": {
+      "renderer_cases": 1100,
+      "source_ticks": 15000,
+      "hardware_tiles_verified": 30431,
+      "pixels_per_case": 61440,
+      "mismatches": 0
+    },
+    "inherited_C_logic_checks": {
+      "frames": 15000,
+      "randomized_ROM_cases": 24000,
+      "scope": "Unchanged C game semantics, checked in the preceding build. This build additionally checks native CPU state hashes on each recorded tick and complete final source state."
+    },
+    "stock_DH0_only_cold_boot": "PASS",
+    "HDF_executable_readback": "PASS",
+    "exact_HDF_used_for_all_final_native_runs": true,
+    "physical_A1200": "not tested",
+    "complete_campaign": "not completed",
+    "clean_source_rebuild": {
+      "clean_source_build": "PASS",
+      "parsed_hunk_code_data_bss_relocations_symbols": "IDENTICAL",
+      "raw_file_padding": "elf2hunk may vary ignored null-terminated debug-symbol padding",
+      "clean_HDF_packaging": "PASS"
+    }
+  },
+  "memory": {
+    "rounded_hunks_bytes": [
+      123444,
+      984628,
+      48,
+      125976
+    ],
+    "arena_bytes": 383232,
+    "hunks_plus_arena_bytes": 1617328,
+    "excludes": "OS, shell stack, loader metadata"
+  },
+  "limits": [
+    "Level-loading pauses remain, including approximately 0.38-second source work bursts in these tests",
+    "Visible display frame rate varies and can be low in crowded scenes",
+    "Approximate Paula synthesis and frame-boundary PPU handling",
+    "Physical A1200 and full campaign untested"
+  ],
+  "previous_optimized_HDF_sha256": "aa0387e5250bb86ce74111b2ae2d4f8c934bacf9a18bcc3f0e1a19d8f3661775"
+}

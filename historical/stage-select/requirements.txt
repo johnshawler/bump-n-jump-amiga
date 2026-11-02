@@ -1,0 +1,4 @@
+py65==1.2.0
+Pillow
+numpy
+amitools

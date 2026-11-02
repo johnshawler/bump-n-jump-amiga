@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-20 America/New_York",
+  "status": "experimental playable hardware-sprite optimization",
+  "hdf_sha256": "aa0387e5250bb86ce74111b2ae2d4f8c934bacf9a18bcc3f0e1a19d8f3661775",
+  "hdf_bytes": 8388608,
+  "executable_sha256": "be71964ed38ff0db2cebde444f2d4eab4a1e10c3aee60948a45f146c2100b98a",
+  "executable_bytes": 1239040,
+  "source_rom_sha256": "40e45122fc9ecbda7e94a18c3b4ff6b5022675220872bbc6f02107ec842ce6a6",
+  "target": {
+    "machine": "PAL A1200",
+    "cpu": "68EC020",
+    "chip_bytes": 2097152,
+    "fast_bytes": 0,
+    "slow_bytes": 0,
+    "z3_bytes": 0,
+    "jit": false,
+    "kickstart": "3.1 rev 40.68",
+    "cpu_timing": "real, cycle exact"
+  },
+  "filesystem": {
+    "type": "plain FFS partition hardfile",
+    "block_bytes": 512,
+    "sectors": 32,
+    "surfaces": 1,
+    "reserved_blocks": 2,
+    "executable_readback_sha256_matches": true
+  },
+  "changes": [
+    "Double-buffered Amiga hardware sprite DMA, matching four NES sprite palettes",
+    "Adjacent tile grouping and vertical channel reuse",
+    "Conservative software fallback for overlaps, behind-background priority, channel capacity and unsupported source sprite modes",
+    "Skip fully transparent source tiles",
+    "ROM-checked car construction, controller sampling and safe RAM copy fast paths",
+    "Direct 68020 coordinate helper with original CPU state preserved",
+    "Publish before initial sprite DMA control fetch or after visible display"
+  ],
+  "validation": {
+    "host_C_reference_complete_frames": 15000,
+    "randomized_original_ROM_routine_cases": 24000,
+    "randomized_routine_entries": [
+      "8092",
+      "aa44",
+      "b4f1",
+      "a920",
+      "b476",
+      "b3a4",
+      "b4b6",
+      "8109"
+    ],
+    "renderer": {
+      "renderer_cases": 1100,
+      "source_ticks": 15000,
+      "hardware_tiles_verified": 30582,
+      "pixels_per_case": 61440,
+      "mismatches": 0
+    },
+    "controller_native": {
+      "ticks": 1376,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 1143,
+      "publications": 633
+    },
+    "stress_native": {
+      "ticks": 1811,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 1549,
+      "publications": 601,
+      "max_cpu_fields": 19,
+      "max_render_fields": 18
+    },
+    "actual_completed_emulated_raster": {
+      "actual_emulated_raster": "PASS",
+      "viewport_source_pixels": 61440,
+      "display_pixels": 245760,
+      "mismatches": 0,
+      "raster_origin": [
+        138,
+        52
+      ],
+      "capture": "paused"
+    },
+    "jump_landing_hold_release": {
+      "jump_sequences": [
+        {
+          "start_tick": 763,
+          "next_non_jump_tick": 859,
+          "duration_ticks": 96,
+          "landing_mode": 1,
+          "release_tick": 909,
+          "retrigger_before_release": false
+        },
+        {
+          "start_tick": 1130,
+          "next_non_jump_tick": 1226,
+          "duration_ticks": 96,
+          "landing_mode": 1,
+          "release_tick": 1245,
+          "retrigger_before_release": false
+        }
+      ],
+      "reference_replay_of_exact_native_hardware_inputs": "PASS"
+    },
+    "keyboard_and_joystick_hardware": "PASS: title Start, Up, ready-speed jump, held Fire, Left/Right, pause/resume, Space jump, Escape",
+    "delivered_DH0_only_cold_boot": "PASS",
+    "release_HDF_matches_controller_and_stress_images": true,
+    "executable_FFS_readback_matches": true,
+    "physical_A1200": "not tested",
+    "full_campaign": "not completed",
+    "clean_source_rebuild": {
+      "clean_source_build": "PASS",
+      "parsed_hunk_code_data_bss_relocations_symbols": "IDENTICAL",
+      "raw_file_difference": "3 ignored padding bytes after a null-terminated debug symbol name from elf2hunk",
+      "clean_HDF_packaging": "PASS"
+    }
+  },
+  "timing": {
+    "baseline_stress": {
+      "fields": 1845,
+      "processed_source_ticks": 1802,
+      "publications": 509,
+      "mean_display_fps": 13.771995067750677,
+      "mean_simulation_hz": 48.75665051490515,
+      "pending_ticks": 416,
+      "max_pending_ticks": 456,
+      "cpu_profile_scanlines": 290335,
+      "render_profile_scanlines": 229172,
+      "wait_profile_scanlines": 54592,
+      "full_redraws": 5,
+      "dirty_tiles": 35090,
+      "error": 0
+    },
+    "optimized_stress": {
+      "fields": 1549,
+      "processed_source_ticks": 1811,
+      "publications": 601,
+      "mean_display_fps": 19.36861207230471,
+      "mean_simulation_hz": 58.363654680438984,
+      "pending_ticks": 52,
+      "max_pending_ticks": 111,
+      "cpu_profile_scanlines": 232240,
+      "render_profile_scanlines": 169166,
+      "wait_profile_scanlines": 79227,
+      "full_redraws": 5,
+      "dirty_tiles": 20780,
+      "error": 0
+    },
+    "optimized_controller": {
+      "fields": 1143,
+      "processed_source_ticks": 1376,
+      "publications": 633,
+      "mean_display_fps": 27.64603963254593,
+      "mean_simulation_hz": 60.09628836395451,
+      "pending_ticks": 0,
+      "max_pending_ticks": 55,
+      "cpu_profile_scanlines": 130336,
+      "render_profile_scanlines": 146510,
+      "wait_profile_scanlines": 75987,
+      "full_redraws": 5,
+      "dirty_tiles": 11179,
+      "error": 0
+    },
+    "stress_display_fps_improvement_percent": 40.63766343962325,
+    "stress_simulation_rate_improvement_percent": 19.703987177291694,
+    "scope": "Finite stock-cycle A1200 emulation. Identical source-tick stress input script; exit polling produced 1802 baseline and 1811 optimized ticks. Means include the title and transitions; individual heavy frames are slower. Controller includes paused raster capture. Scanline profiling is approximate."
+  },
+  "memory": {
+    "rounded_hunks_bytes": [
+      123180,
+      984508,
+      48,
+      48192
+    ],
+    "arena_bytes": 383232,
+    "hunks_plus_arena_bytes": 1539160,
+    "excludes": "OS, shell stack, loader and allocation metadata"
+  },
+  "limits": [
+    "Heavy scenes can still slow down",
+    "Approximate Paula sound and frame-boundary NES PPU model",
+    "Physical A1200 and complete campaign untested"
+  ],
+  "baseline_hdf_sha256": "8420102b3776f02e2b32c10b374b1adde8fc1dbf96ef8e0aab10e25c54a54132"
+}

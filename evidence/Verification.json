@@ -1,0 +1,1853 @@
+{
+  "date": "2026-10-20",
+  "hdf_sha256": "4b9b6f119e5315e085a62431a77b8bbed735256e502702ced68fb5c2c9c496f4",
+  "executable_sha256": "09de0933d04a5de0e57dbc8b17f45ab78b6b7d348a7640e18ec3ea1826307a0e",
+  "target": "Stock PAL A1200, 68EC020, AGA, 2 MB Chip RAM, no expansion RAM/JIT/accelerator; Kickstart 3.1",
+  "features": [
+    "16-stage selector before original stage initialization",
+    "Original cartridge scenery previews and font glyphs",
+    "Top 10 table with three initials and stage reached",
+    "Two alternating checksummed HDF saves; explicit filesystem flush before resuming",
+    "Continue restarts the current stage through original setup, with three lives and zero score",
+    "Original stage progression, game clock and event-audio requests preserved"
+  ],
+  "memory": {
+    "hunks_bytes": [
+      132312,
+      1022652,
+      56,
+      126364
+    ],
+    "arena_bytes": 383232,
+    "total_bytes": 1664616,
+    "excludes": "OS, stack, loader metadata"
+  },
+  "validation": {
+    "all_16_stages": [
+      {
+        "stage": 1,
+        "test": "native-stage-01-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 571,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 475,
+          "publications": 209,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 2,
+        "test": "native-stage-02-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 571,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 475,
+          "publications": 211,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 3,
+        "test": "native-stage-03-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 568,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 473,
+          "publications": 218,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 4,
+        "test": "native-stage-04-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 570,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 474,
+          "publications": 212,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 5,
+        "test": "native-stage-05-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 570,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 474,
+          "publications": 214,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 6,
+        "test": "native-stage-06-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 571,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 475,
+          "publications": 215,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 7,
+        "test": "native-stage-07-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 570,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 474,
+          "publications": 215,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 8,
+        "test": "native-stage-08-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 568,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 473,
+          "publications": 224,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 9,
+        "test": "native-stage-09-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 570,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 474,
+          "publications": 217,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 10,
+        "test": "native-stage-10-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 570,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 475,
+          "publications": 216,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 11,
+        "test": "native-stage-11-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 571,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 475,
+          "publications": 216,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 12,
+        "test": "native-stage-12-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 569,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 473,
+          "publications": 221,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 13,
+        "test": "native-stage-13-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 570,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 475,
+          "publications": 213,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 14,
+        "test": "native-stage-14-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 569,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 473,
+          "publications": 220,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 15,
+        "test": "native-stage-15-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 571,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 475,
+          "publications": 211,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 16,
+        "test": "native-stage-16-final",
+        "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+        "native": {
+          "ticks": 571,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 475,
+          "publications": 210,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      }
+    ],
+    "final_build_stage_regression": [
+      {
+        "stage": 1,
+        "test": "release-stage-01-final",
+        "hdf_sha256": "4b9b6f119e5315e085a62431a77b8bbed735256e502702ced68fb5c2c9c496f4",
+        "native": {
+          "ticks": 570,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 474,
+          "publications": 210,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 8,
+        "test": "release-stage-08-final",
+        "hdf_sha256": "4b9b6f119e5315e085a62431a77b8bbed735256e502702ced68fb5c2c9c496f4",
+        "native": {
+          "ticks": 568,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 473,
+          "publications": 224,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      },
+      {
+        "stage": 16,
+        "test": "release-stage-16-final",
+        "hdf_sha256": "4b9b6f119e5315e085a62431a77b8bbed735256e502702ced68fb5c2c9c496f4",
+        "native": {
+          "ticks": 570,
+          "logic": "PASS",
+          "native_viewport_pixels": 61440,
+          "pixel_mismatches": 0,
+          "fields": 474,
+          "publications": 209,
+          "max_cpu_fields": 19,
+          "max_render_fields": 8
+        }
+      }
+    ],
+    "stage_test_scope": "All 16 stage logic/renderer/menu paths tested before the final save-handling changes; stages 1, 8, 16 rechecked on the exact final HDF. Those changes flush pending disk writes and clear keys consumed by the OS during saving; stage/gameplay paths are unchanged.",
+    "controller": {
+      "ticks": 1350,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 1122,
+      "publications": 395,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    },
+    "controller_CPU_audio": {
+      "source_ticks": 1350,
+      "per_tick_records_checked": 1350,
+      "per_tick_CPU_state_hash": "PASS",
+      "all_original_ROM_APU_writes_in_order": "PASS",
+      "total_original_APU_register_writes": 2914,
+      "audio_publications": 1350,
+      "audio_published_once_per_source_tick": true,
+      "final_APU_registers": "PASS",
+      "timing": [
+        {
+          "window": "whole_recording",
+          "ticks": 1350,
+          "mean_update_hz": 60.098256181369365,
+          "mean_CPU_audio_ms": 6.111523099002425,
+          "max_CPU_audio_ms": 374.1234903632415,
+          "max_update_start_gap_ms": 374.5087213469689,
+          "lowest_60_tick_window_hz": 44.34394381702571,
+          "highest_60_tick_window_hz": 93.67524779470729
+        },
+        {
+          "window": "gameplay_700_1500",
+          "ticks": 650,
+          "mean_update_hz": 60.09894114975058,
+          "mean_CPU_audio_ms": 9.172250945373627,
+          "max_CPU_audio_ms": 15.537649677004367,
+          "max_update_start_gap_ms": 20.609857629414883,
+          "lowest_60_tick_window_hz": 59.85040809529908,
+          "highest_60_tick_window_hz": 60.33731095041322
+        },
+        {
+          "window": "crowded_900_1500",
+          "ticks": 450,
+          "mean_update_hz": 60.09716812443603,
+          "mean_CPU_audio_ms": 8.461241862216621,
+          "max_CPU_audio_ms": 15.537649677004367,
+          "max_update_start_gap_ms": 20.609857629414883,
+          "lowest_60_tick_window_hz": 59.85040809529908,
+          "highest_60_tick_window_hz": 60.33731095041322
+        }
+      ],
+      "game_event_transitions": [
+        {
+          "source_tick": 767,
+          "player_mode": 5,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16388,
+              179
+            ]
+          ]
+        },
+        {
+          "source_tick": 799,
+          "player_mode": 6,
+          "source_audio_writes": 10,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              13
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16388,
+              185
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 831,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              53
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 863,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              185
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 864,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              184
+            ]
+          ]
+        },
+        {
+          "source_tick": 901,
+          "player_mode": 2,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16398,
+              0
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              103
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              179
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16384,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 924,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 957,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              180
+            ]
+          ]
+        },
+        {
+          "source_tick": 972,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1125,
+          "player_mode": 5,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ]
+          ]
+        },
+        {
+          "source_tick": 1157,
+          "player_mode": 6,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              58
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 1189,
+          "player_mode": 7,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16388,
+              189
+            ],
+            [
+              16384,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 1221,
+          "player_mode": 1,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              180
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1222,
+          "player_mode": 0,
+          "source_audio_writes": 17,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              92
+            ],
+            [
+              16395,
+              10
+            ],
+            [
+              16392,
+              255
+            ],
+            [
+              16388,
+              180
+            ]
+          ]
+        }
+      ],
+      "scope": "Source ROM audio requests and native publication cadence checked; Paula synthesis remains approximate."
+    },
+    "actual_raster": {
+      "actual_emulated_raster": "PASS",
+      "viewport_source_pixels": 61440,
+      "display_pixels": 245760,
+      "mismatches": 0,
+      "raster_origin": [
+        138,
+        52
+      ],
+      "capture": "paused"
+    },
+    "jump": {
+      "jump_sequences": [
+        {
+          "start_tick": 767,
+          "next_non_jump_tick": 863,
+          "duration_ticks": 96,
+          "landing_mode": 1,
+          "release_tick": 912,
+          "retrigger_before_release": false
+        },
+        {
+          "start_tick": 1125,
+          "next_non_jump_tick": 1221,
+          "duration_ticks": 96,
+          "landing_mode": 1,
+          "release_tick": 1241,
+          "retrigger_before_release": false
+        }
+      ],
+      "reference_replay_of_exact_native_hardware_inputs": "PASS"
+    },
+    "heavy_scene": {
+      "source_ticks": 1803,
+      "per_tick_records_checked": 1803,
+      "per_tick_CPU_state_hash": "PASS",
+      "all_original_ROM_APU_writes_in_order": "PASS",
+      "total_original_APU_register_writes": 4454,
+      "audio_publications": 1803,
+      "audio_published_once_per_source_tick": true,
+      "final_APU_registers": "PASS",
+      "timing": [
+        {
+          "window": "whole_recording",
+          "ticks": 1803,
+          "mean_update_hz": 60.09922569941263,
+          "mean_CPU_audio_ms": 8.026998681358858,
+          "max_CPU_audio_ms": 373.93087487137785,
+          "max_update_start_gap_ms": 374.3161058551052,
+          "lowest_60_tick_window_hz": 44.2494565083574,
+          "highest_60_tick_window_hz": 93.63770260521041
+        },
+        {
+          "window": "gameplay_700_1500",
+          "ticks": 800,
+          "mean_update_hz": 60.08953152260513,
+          "mean_CPU_audio_ms": 12.191677813967233,
+          "max_CPU_audio_ms": 16.179701316550002,
+          "max_update_start_gap_ms": 20.802473121278577,
+          "lowest_60_tick_window_hz": 59.86574452274183,
+          "highest_60_tick_window_hz": 60.34510344827586
+        },
+        {
+          "window": "crowded_900_1500",
+          "ticks": 600,
+          "mean_update_hz": 60.082740192043886,
+          "mean_CPU_audio_ms": 12.68373013922402,
+          "max_CPU_audio_ms": 16.179701316550002,
+          "max_update_start_gap_ms": 20.802473121278577,
+          "lowest_60_tick_window_hz": 59.87341568426447,
+          "highest_60_tick_window_hz": 60.317838507713155
+        }
+      ],
+      "game_event_transitions": [
+        {
+          "source_tick": 901,
+          "player_mode": 5,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              58
+            ]
+          ]
+        },
+        {
+          "source_tick": 933,
+          "player_mode": 6,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 965,
+          "player_mode": 7,
+          "source_audio_writes": 4,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 997,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 998,
+          "player_mode": 0,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 1031,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              184
+            ]
+          ]
+        },
+        {
+          "source_tick": 1046,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              181
+            ]
+          ]
+        },
+        {
+          "source_tick": 1081,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              58
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 1113,
+          "player_mode": 6,
+          "source_audio_writes": 7,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              185
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 1145,
+          "player_mode": 7,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              177
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 1177,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              182
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1178,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              181
+            ]
+          ]
+        },
+        {
+          "source_tick": 1206,
+          "player_mode": 2,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 1225,
+          "player_mode": 0,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              182
+            ]
+          ]
+        },
+        {
+          "source_tick": 1253,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 1261,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16388,
+              187
+            ],
+            [
+              16384,
+              188
+            ],
+            [
+              16386,
+              91
+            ]
+          ]
+        },
+        {
+          "source_tick": 1293,
+          "player_mode": 6,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16388,
+              183
+            ]
+          ]
+        },
+        {
+          "source_tick": 1325,
+          "player_mode": 7,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              178
+            ]
+          ]
+        },
+        {
+          "source_tick": 1357,
+          "player_mode": 1,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1358,
+          "player_mode": 0,
+          "source_audio_writes": 12,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              120
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ]
+          ]
+        },
+        {
+          "source_tick": 1377,
+          "player_mode": 2,
+          "source_audio_writes": 1,
+          "register_writes": [
+            [
+              16396,
+              48
+            ]
+          ]
+        },
+        {
+          "source_tick": 1392,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1441,
+          "player_mode": 5,
+          "source_audio_writes": 3,
+          "register_writes": [
+            [
+              16396,
+              58
+            ],
+            [
+              16388,
+              188
+            ],
+            [
+              16384,
+              179
+            ]
+          ]
+        },
+        {
+          "source_tick": 1473,
+          "player_mode": 6,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              60
+            ],
+            [
+              16398,
+              15
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              179
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              115
+            ]
+          ]
+        },
+        {
+          "source_tick": 1505,
+          "player_mode": 7,
+          "source_audio_writes": 5,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16388,
+              183
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              51
+            ]
+          ]
+        },
+        {
+          "source_tick": 1537,
+          "player_mode": 1,
+          "source_audio_writes": 6,
+          "register_writes": [
+            [
+              16396,
+              50
+            ],
+            [
+              16398,
+              14
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ],
+            [
+              16384,
+              176
+            ],
+            [
+              16386,
+              111
+            ]
+          ]
+        },
+        {
+          "source_tick": 1538,
+          "player_mode": 0,
+          "source_audio_writes": 13,
+          "register_writes": [
+            [
+              16396,
+              48
+            ],
+            [
+              16397,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              134
+            ],
+            [
+              16387,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16396,
+              63
+            ],
+            [
+              16398,
+              5
+            ],
+            [
+              16399,
+              8
+            ],
+            [
+              16388,
+              188
+            ]
+          ]
+        },
+        {
+          "source_tick": 1539,
+          "player_mode": 9,
+          "source_audio_writes": 18,
+          "register_writes": [
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              146
+            ],
+            [
+              16395,
+              9
+            ],
+            [
+              16392,
+              128
+            ],
+            [
+              16393,
+              0
+            ],
+            [
+              16394,
+              184
+            ],
+            [
+              16395,
+              14
+            ],
+            [
+              16388,
+              48
+            ],
+            [
+              16389,
+              8
+            ],
+            [
+              16401,
+              0
+            ],
+            [
+              16402,
+              0
+            ],
+            [
+              16403,
+              8
+            ],
+            [
+              16384,
+              48
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16385,
+              8
+            ],
+            [
+              16386,
+              184
+            ],
+            [
+              16387,
+              14
+            ]
+          ]
+        },
+        {
+          "source_tick": 1571,
+          "player_mode": 10,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              191
+            ],
+            [
+              16386,
+              155
+            ]
+          ]
+        },
+        {
+          "source_tick": 1603,
+          "player_mode": 11,
+          "source_audio_writes": 2,
+          "register_writes": [
+            [
+              16384,
+              177
+            ],
+            [
+              16386,
+              27
+            ]
+          ]
+        },
+        {
+          "source_tick": 1635,
+          "player_mode": 15,
+          "source_audio_writes": 0,
+          "register_writes": []
+        },
+        {
+          "source_tick": 1733,
+          "player_mode": 0,
+          "source_audio_writes": 0,
+          "register_writes": []
+        }
+      ],
+      "scope": "Source ROM audio requests and native publication cadence checked; Paula synthesis remains approximate."
+    },
+    "score_saves": {
+      "actual_HDF_files": [
+        {
+          "slot": "A",
+          "generation": 1,
+          "records": [
+            {
+              "score": 123456,
+              "initials": "AAA",
+              "stage": 8
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            }
+          ]
+        },
+        {
+          "slot": "B",
+          "generation": 2,
+          "records": [
+            {
+              "score": 654321,
+              "initials": "ZED",
+              "stage": 8
+            },
+            {
+              "score": 123456,
+              "initials": "AAA",
+              "stage": 8
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            },
+            {
+              "score": 0,
+              "initials": "---",
+              "stage": 0
+            }
+          ]
+        }
+      ],
+      "checksums": "PASS",
+      "scope": "Synthetic completed scores; native original game-over path, real initials input, actual DOS saves and Continue tested."
+    },
+    "score_format": {
+      "ranking_cases": 1000,
+      "round_trip": true,
+      "corruptions_rejected": 96,
+      "checksummed_invalid_records_rejected": 4,
+      "old_generation_rejected": true,
+      "score_decode": 123456
+    },
+    "fresh_source_rebuild": {
+      "clean_source_build": "PASS",
+      "parsed_hunk_code_data_bss_relocations_symbols": "IDENTICAL",
+      "raw_file_padding": "elf2hunk may vary ignored debug-symbol padding"
+    },
+    "score_retention_cold_boot": "PASS",
+    "corrupt_latest_save_falls_back": "PASS",
+    "continue_same_stage_three_lives_zero_score": "PASS",
+    "decline_continue_returns_to_title": "PASS",
+    "renderer": {
+      "renderer_cases": 1100,
+      "source_ticks": 15000,
+      "hardware_tiles_verified": 30431,
+      "pixels_per_case": 61440,
+      "mismatches": 0
+    },
+    "final_profile_cold_boot": "PASS",
+    "executable_HDF_readback": "PASS"
+  },
+  "limits": [
+    "Physical A1200 and full campaign untested",
+    "Variable display rate; loading pauses remain",
+    "Paula synthesis is approximate",
+    "Score-save/Continue tests use two deliberately injected completed scores to exercise entry and persistence, with actual emulated controls and DOS filesystem writes"
+  ]
+}

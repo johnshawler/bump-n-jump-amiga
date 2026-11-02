@@ -1,0 +1,3 @@
+7333fe799b33a31aced3cacbbf2a6d48a656aca7becba57b124757562df05fda  BumpNJump-A1200-60Hz/BumpNJump-A1200-60Hz.hdf
+d421da70d5cfdc94139c1b2ebb81c84197037e595dd5db002fcd96d75adb3fdc  BumpNJump-A1200-60Hz.zip
+22cf20075bc7f95d329bd343dae421d50e195fb2a906351d3d42eb263612f1bc  BumpNJump-A1200-60Hz-Source.zip

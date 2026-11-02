@@ -1,0 +1,242 @@
+[
+  {
+    "stage": 1,
+    "test": "native-stage-01-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 571,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 475,
+      "publications": 209,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 2,
+    "test": "native-stage-02-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 571,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 475,
+      "publications": 211,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 3,
+    "test": "native-stage-03-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 568,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 473,
+      "publications": 218,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 4,
+    "test": "native-stage-04-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 570,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 474,
+      "publications": 212,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 5,
+    "test": "native-stage-05-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 570,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 474,
+      "publications": 214,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 6,
+    "test": "native-stage-06-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 571,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 475,
+      "publications": 215,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 7,
+    "test": "native-stage-07-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 570,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 474,
+      "publications": 215,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 8,
+    "test": "native-stage-08-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 568,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 473,
+      "publications": 224,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 9,
+    "test": "native-stage-09-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 570,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 474,
+      "publications": 217,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 10,
+    "test": "native-stage-10-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 570,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 475,
+      "publications": 216,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 11,
+    "test": "native-stage-11-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 571,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 475,
+      "publications": 216,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 12,
+    "test": "native-stage-12-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 569,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 473,
+      "publications": 221,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 13,
+    "test": "native-stage-13-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 570,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 475,
+      "publications": 213,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 14,
+    "test": "native-stage-14-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 569,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 473,
+      "publications": 220,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 15,
+    "test": "native-stage-15-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 571,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 475,
+      "publications": 211,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 16,
+    "test": "native-stage-16-final",
+    "hdf_sha256": "b5d0d46f3bf29333220192f7677adbe59329cbd6eba6dabec6ec21c997a81b2e",
+    "native": {
+      "ticks": 571,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 475,
+      "publications": 210,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  }
+]

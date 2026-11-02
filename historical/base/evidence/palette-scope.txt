@@ -1,0 +1,1 @@
+Pixel verification compares all 61440 source palette indices against the native planar viewport, with transparent colour aliases canonicalized. Native display uses a fixed RGB4 palette; the NES PPU is not cycle-exactly emulated.

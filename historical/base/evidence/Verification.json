@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-20 America/New_York",
+  "status": "experimental playable build",
+  "source_rom_sha256": "40e45122fc9ecbda7e94a18c3b4ff6b5022675220872bbc6f02107ec842ce6a6",
+  "hdf_sha256": "8420102b3776f02e2b32c10b374b1adde8fc1dbf96ef8e0aab10e25c54a54132",
+  "hdf_bytes": 8388608,
+  "executable_sha256": "19fb03858a461dc97519320083daeb7a16aa92e2600b683bbee65850cac7aede",
+  "executable_bytes": 1233496,
+  "target": {
+    "machine": "PAL A1200",
+    "cpu": "68EC020",
+    "chip_bytes": 2097152,
+    "fast_bytes": 0,
+    "slow_bytes": 0,
+    "z3_bytes": 0,
+    "jit": false,
+    "kickstart": "3.1 rev 40.68",
+    "cpu_timing": "real, cycle exact"
+  },
+  "filesystem": {
+    "type": "plain FFS partition hardfile",
+    "block_bytes": 512,
+    "sectors": 32,
+    "surfaces": 1,
+    "reserved_blocks": 2,
+    "executable_readback_sha256_matches": true
+  },
+  "validation": {
+    "c_reference_host_frames": 15000,
+    "randomized_original_ROM_routine_cases": 18000,
+    "guarded_memory_cases": 10000,
+    "native_scripted_ticks": 1802,
+    "native_scripted_cpu_ram_vram_sprites_palette": "PASS",
+    "native_scripted_pixels": 61440,
+    "native_pixel_mismatches": 0,
+    "release_hardware_input_test": "PASS: Start, 150 km/h readiness, actual jump mode 5, held Fire, Left/Right, keyboard pause/resume, Space, Escape",
+    "release_controller_cpu_ram_vram_sprites_palette_pixels": "PASS, 1319 source ticks, all 61440 viewport pixels",
+    "physical_Mac_keyboard": "not manually tested: Mac locked; emulated keyboard hardware checked",
+    "physical_A1200": "not tested",
+    "full_campaign": "not completed",
+    "jump_landing_hold_release": {
+      "jump_sequences": [
+        {
+          "start_tick": 768,
+          "next_non_jump_tick": 864,
+          "duration_ticks": 96,
+          "landing_mode": 1,
+          "release_tick": 912,
+          "retrigger_before_release": false
+        },
+        {
+          "start_tick": 1188,
+          "next_non_jump_tick": 1284,
+          "duration_ticks": 96,
+          "landing_mode": 1,
+          "release_tick": 1302,
+          "retrigger_before_release": false
+        }
+      ],
+      "reference_replay_of_exact_native_hardware_inputs": "PASS"
+    },
+    "jump_hardware_witness": "player mode 5 observed at field 1303, source tick 769; reference replay starts mode 5 at tick 768",
+    "final_hdf_exactly_matches_controller_run": true,
+    "delivered_stock_profile_DH0_only_cold_boot": "PASS",
+    "executable_filesystem_readback": "PASS",
+    "coherent_beam_sampling": "upper vertical bit checked before and after lower byte; publication restricted to guarded vertical blank"
+  },
+  "timing": {
+    "heavy_scripted_run": {
+      "fields": 1878,
+      "processed_source_ticks": 1802,
+      "publications": 498,
+      "mean_display_fps": 13.23759840255591,
+      "mean_simulation_hz": 47.8999042598509,
+      "pending_ticks": 456,
+      "max_pending_ticks": 496,
+      "error": 0,
+      "scope_note": "Same runtime and renderer, before final coherent publication poll correction; finite stress run, not a final-release full-speed claim."
+    },
+    "release_hardware_input_run": {
+      "fields": 1039,
+      "processed_source_ticks": 1233,
+      "publications": 433,
+      "mean_display_fps": 20.80404552454283,
+      "mean_simulation_hz": 59.24108113570741,
+      "pending_ticks": 11,
+      "max_pending_ticks": 66,
+      "error": 0
+    },
+    "scope": "finite emulated runs; display and simulation can slow in busy scenes; no full-speed guarantee",
+    "release_confirmed_jump_run": {
+      "fields": 1180,
+      "processed_source_ticks": 1323,
+      "publications": 448,
+      "mean_display_fps": 18.95271593220339,
+      "mean_simulation_hz": 55.96973923728814,
+      "pending_ticks": 87,
+      "max_pending_ticks": 102,
+      "error": 0
+    },
+    "final_release_controller_run": {
+      "fields": 1180,
+      "processed_source_ticks": 1319,
+      "publications": 435,
+      "mean_display_fps": 18.40274872881356,
+      "mean_simulation_hz": 55.800518559322036,
+      "pending_ticks": 91,
+      "max_pending_ticks": 104,
+      "error": 0
+    }
+  },
+  "memory": {
+    "rounded_hunks_bytes": [
+      119568,
+      983436,
+      48,
+      47196
+    ],
+    "hunks_plus_arena_bytes": 1517096,
+    "arena_bytes": 366848,
+    "excludes": "OS, shell stack, loader and allocation metadata"
+  },
+  "limits": [
+    "approximate Paula sound",
+    "physical hardware and complete campaign unverified",
+    "heavy-scene slowdown"
+  ],
+  "work_started_date": "2026-10-19 America/New_York"
+}

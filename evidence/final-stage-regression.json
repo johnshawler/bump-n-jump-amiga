@@ -1,0 +1,47 @@
+[
+  {
+    "stage": 1,
+    "test": "release-stage-01-final",
+    "hdf_sha256": "4b9b6f119e5315e085a62431a77b8bbed735256e502702ced68fb5c2c9c496f4",
+    "native": {
+      "ticks": 570,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 474,
+      "publications": 210,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 8,
+    "test": "release-stage-08-final",
+    "hdf_sha256": "4b9b6f119e5315e085a62431a77b8bbed735256e502702ced68fb5c2c9c496f4",
+    "native": {
+      "ticks": 568,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 473,
+      "publications": 224,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  },
+  {
+    "stage": 16,
+    "test": "release-stage-16-final",
+    "hdf_sha256": "4b9b6f119e5315e085a62431a77b8bbed735256e502702ced68fb5c2c9c496f4",
+    "native": {
+      "ticks": 570,
+      "logic": "PASS",
+      "native_viewport_pixels": 61440,
+      "pixel_mismatches": 0,
+      "fields": 474,
+      "publications": 209,
+      "max_cpu_fields": 19,
+      "max_render_fields": 8
+    }
+  }
+]

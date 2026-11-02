@@ -1,0 +1,1462 @@
+{
+  "date": "2026-11-02",
+  "scope": "Recovered Mac material; not complete DX/WHDLoad source",
+  "files": [
+    {
+      "source": "local-2026-10-19/work/source-package/README.txt",
+      "source_sha256": "28ced0678ebf3d8b5b16ee94d32563dd0f9ed881046c532dad83d899b6edda2e",
+      "published_path": "historical/base/README.txt",
+      "published_sha256": "28ced0678ebf3d8b5b16ee94d32563dd0f9ed881046c532dad83d899b6edda2e",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/build.py",
+      "source_sha256": "a48bafb016baedf9430c59c1554b0fec9f36309895418265bd9100ab2ce225f5",
+      "published_path": "historical/base/build.py",
+      "published_sha256": "41fc284e5408a5e0c35a0232e96edb7140575ce3727bc3085f098666b5482a9d",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/check_coverage.py",
+      "source_sha256": "6f146b89d0d8bbd44ef1a88b1310da7e9d1f4df31956150e89345afae7c0fd0c",
+      "published_path": "historical/base/check_coverage.py",
+      "published_sha256": "6f146b89d0d8bbd44ef1a88b1310da7e9d1f4df31956150e89345afae7c0fd0c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/check_cpu.py",
+      "source_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "published_path": "historical/base/check_cpu.py",
+      "published_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/check_jump_replay.py",
+      "source_sha256": "38b01a9886fc1a12bb5ff2239d98e5e31a52e16db621da9b7d306a087709ba82",
+      "published_path": "historical/base/check_jump_replay.py",
+      "published_sha256": "38b01a9886fc1a12bb5ff2239d98e5e31a52e16db621da9b7d306a087709ba82",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/controller_test.py",
+      "source_sha256": "16983d200514d9549f06c080710942f91996dd38db00a710bb7743cabd2987cf",
+      "published_path": "historical/base/controller_test.py",
+      "published_sha256": "c1438dc62a81aeab8698b8bc3eb4aec9197604a8674e9d6e411122f3d5a717d4",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/debug_server.py",
+      "source_sha256": "70acc28d334bd6066570cc94dabf9ca54c17111deda718cab00c13ac883e41da",
+      "published_path": "historical/base/debug_server.py",
+      "published_sha256": "70acc28d334bd6066570cc94dabf9ca54c17111deda718cab00c13ac883e41da",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/evidence/Verification.json",
+      "source_sha256": "8ae4a47626140f02088bba579cd78c26bfaf6e7e6fefb6db8a7456caa5fa3c77",
+      "published_path": "historical/base/evidence/Verification.json",
+      "published_sha256": "8ae4a47626140f02088bba579cd78c26bfaf6e7e6fefb6db8a7456caa5fa3c77",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/evidence/hardware-input-trace.txt",
+      "source_sha256": "fe246b849b4dc9b1bbd506b775cfccf81d058d8a409b33ab7220e23ba1c19ab5",
+      "published_path": "historical/base/evidence/hardware-input-trace.txt",
+      "published_sha256": "fe246b849b4dc9b1bbd506b775cfccf81d058d8a409b33ab7220e23ba1c19ab5",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/evidence/input-verification.json",
+      "source_sha256": "1ea3d9765fd14d142cde30c450ad1a1bf04a1ca4f597b9d3030c5a534cc25103",
+      "published_path": "historical/base/evidence/input-verification.json",
+      "published_sha256": "1ea3d9765fd14d142cde30c450ad1a1bf04a1ca4f597b9d3030c5a534cc25103",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/evidence/jump-verification.json",
+      "source_sha256": "cadcb3a2e2aaa0c8be7d6a6a622651dcd22e3e2fc0575be8cdd668ce2e316e09",
+      "published_path": "historical/base/evidence/jump-verification.json",
+      "published_sha256": "cadcb3a2e2aaa0c8be7d6a6a622651dcd22e3e2fc0575be8cdd668ce2e316e09",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/evidence/palette-scope.txt",
+      "source_sha256": "5d6ab0462a144d2e5d9ee95b35193df1fd920d95da78b71cb348474a714302a1",
+      "published_path": "historical/base/evidence/palette-scope.txt",
+      "published_sha256": "5d6ab0462a144d2e5d9ee95b35193df1fd920d95da78b71cb348474a714302a1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/generate.py",
+      "source_sha256": "d2111893c69ee42069b95a2feb5171d00269f1b6bcedba5cbe839968f0b7f844",
+      "published_path": "historical/base/generate.py",
+      "published_sha256": "d2111893c69ee42069b95a2feb5171d00269f1b6bcedba5cbe839968f0b7f844",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/generate_asm.py",
+      "source_sha256": "4581e0ea22a5468b510159a0aafbf8e23b7f78ed729132cff08a1cb13c00d984",
+      "published_path": "historical/base/generate_asm.py",
+      "published_sha256": "4581e0ea22a5468b510159a0aafbf8e23b7f78ed729132cff08a1cb13c00d984",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/generate_sprites.py",
+      "source_sha256": "8bce16fe977bd87f2f6e7c788cdcc7a9dd6c78c2c13a97c43b4645ec8c8746e0",
+      "published_path": "historical/base/generate_sprites.py",
+      "published_sha256": "8bce16fe977bd87f2f6e7c788cdcc7a9dd6c78c2c13a97c43b4645ec8c8746e0",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/package.py",
+      "source_sha256": "bb68e6b4e8b9a996fe6f1b8f9fe7ff2962eec145abf587ce5754bd292abc09e9",
+      "published_path": "historical/base/package.py",
+      "published_sha256": "872dd12f32a6098f6e773afc55fc3e496f643ac36c5a218102cdd71786a119bd",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/profile_smoke.py",
+      "source_sha256": "b76d8cf04ca75543d4e2a618d8595dafaf5c6d3450580067ee4b3057a17fd915",
+      "published_path": "historical/base/profile_smoke.py",
+      "published_sha256": "2ad6e2b67a24928b9873e090ac67f851b05c1b2e60bf5ed7744de0d268a728ff",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/py65-LICENSE.txt",
+      "source_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "published_path": "historical/base/py65-LICENSE.txt",
+      "published_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/reference.py",
+      "source_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "published_path": "historical/base/reference.py",
+      "published_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/requirements.txt",
+      "source_sha256": "11262340cf5fd5dd6069c8534ca143246afb61add667b7e313f8dda57178d1f9",
+      "published_path": "historical/base/requirements.txt",
+      "published_sha256": "11262340cf5fd5dd6069c8534ca143246afb61add667b7e313f8dda57178d1f9",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/run_test.py",
+      "source_sha256": "3866ad51330942a837207f8369815cc87294e5eb7c90b3c5e6b31fd129434f54",
+      "published_path": "historical/base/run_test.py",
+      "published_sha256": "3866ad51330942a837207f8369815cc87294e5eb7c90b3c5e6b31fd129434f54",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/src/audio.c",
+      "source_sha256": "17ff03cc35d9aa502be7d1bfbf9222feb2bdd1d5115ceea129e9e62f1831871a",
+      "published_path": "historical/base/src/audio.c",
+      "published_sha256": "17ff03cc35d9aa502be7d1bfbf9222feb2bdd1d5115ceea129e9e62f1831871a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/src/bus.c",
+      "source_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "published_path": "historical/base/src/bus.c",
+      "published_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/src/engine.h",
+      "source_sha256": "6b4af0c6cd5822ea4bc089142b57766545df5aebca02121818de043a8e657e14",
+      "published_path": "historical/base/src/engine.h",
+      "published_sha256": "6b4af0c6cd5822ea4bc089142b57766545df5aebca02121818de043a8e657e14",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/src/host.c",
+      "source_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "published_path": "historical/base/src/host.c",
+      "published_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/src/main.c",
+      "source_sha256": "4104b0f02da0cae0aef09112fe450b0086b284e79688cf95dba822050598b12f",
+      "published_path": "historical/base/src/main.c",
+      "published_sha256": "4104b0f02da0cae0aef09112fe450b0086b284e79688cf95dba822050598b12f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/src/memory.c",
+      "source_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "published_path": "historical/base/src/memory.c",
+      "published_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/src/render.c",
+      "source_sha256": "18d3399130e46a192fecb7d4c6bde6cde3cc0d69facb32cb08150dc252915b97",
+      "published_path": "historical/base/src/render.c",
+      "published_sha256": "18d3399130e46a192fecb7d4c6bde6cde3cc0d69facb32cb08150dc252915b97",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/src/start.s",
+      "source_sha256": "5f69e8fd708ff3744b0747f0ed038fcccfa0373365c55d10c6d0bd00616e747c",
+      "published_path": "historical/base/src/start.s",
+      "published_sha256": "5f69e8fd708ff3744b0747f0ed038fcccfa0373365c55d10c6d0bd00616e747c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/test_intrinsics.py",
+      "source_sha256": "904f06e96fb9ec371c73ec0fe585ede7f64ad3c174e8a46b7a82aeb25e722cea",
+      "published_path": "historical/base/test_intrinsics.py",
+      "published_sha256": "904f06e96fb9ec371c73ec0fe585ede7f64ad3c174e8a46b7a82aeb25e722cea",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/source-package/verify_native.py",
+      "source_sha256": "ea35260f955b4b2572b472d970b022fc7874428f8afcd0510726758dac073ce6",
+      "published_path": "historical/base/verify_native.py",
+      "published_sha256": "ea35260f955b4b2572b472d970b022fc7874428f8afcd0510726758dac073ce6",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/README.txt",
+      "source_sha256": "e248cbefd3aaba7734b8b5d7ed2b5b4eab4c6251764459034247aa508ed8eed3",
+      "published_path": "historical/60hz/README.txt",
+      "published_sha256": "e248cbefd3aaba7734b8b5d7ed2b5b4eab4c6251764459034247aa508ed8eed3",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/analyze_game_audio.py",
+      "source_sha256": "57b4fd1fc1e3928b5181afd32d8996cb0246be69dd0809431b37d147f4a9cd4d",
+      "published_path": "historical/60hz/analyze_game_audio.py",
+      "published_sha256": "57b4fd1fc1e3928b5181afd32d8996cb0246be69dd0809431b37d147f4a9cd4d",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/benchmark_hw.py",
+      "source_sha256": "9e8b5021bb8ad47c3c860a5ba651e4fc11e2bcdb0b1745ff39eb2ee6e57f5f3c",
+      "published_path": "historical/60hz/benchmark_hw.py",
+      "published_sha256": "5a1b4d9e1872da022ae46072ec0647a88b86c3c29a88ba24e9a274e1d8e28f89",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/build.py",
+      "source_sha256": "dac0986835fe3cf792cd74f7a1cec27e55bed3fc979929d0bf04a9a322b8f6a9",
+      "published_path": "historical/60hz/build.py",
+      "published_sha256": "e43a1e040a37eb4f0e5d372e9f93c3efdae7f78b3dbacc8586c9d738efede9a0",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/build_audio_probe.py",
+      "source_sha256": "f09a1cb38c5cde06765cd4de699c64db3b0647c841d32fe863c73586f605bbe3",
+      "published_path": "historical/60hz/build_audio_probe.py",
+      "published_sha256": "e31c48baa0e624833b190a939df0981a221f8e9cc0e49e3ee73fb19bc98ae070",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/check_coverage.py",
+      "source_sha256": "6f146b89d0d8bbd44ef1a88b1310da7e9d1f4df31956150e89345afae7c0fd0c",
+      "published_path": "historical/60hz/check_coverage.py",
+      "published_sha256": "6f146b89d0d8bbd44ef1a88b1310da7e9d1f4df31956150e89345afae7c0fd0c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/check_cpu.py",
+      "source_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "published_path": "historical/60hz/check_cpu.py",
+      "published_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/check_jump_replay.py",
+      "source_sha256": "d61a967fd3987f544a093a96bfea7aa4b3ff66a00e8ff98a4ee02ea1720e8b84",
+      "published_path": "historical/60hz/check_jump_replay.py",
+      "published_sha256": "d61a967fd3987f544a093a96bfea7aa4b3ff66a00e8ff98a4ee02ea1720e8b84",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/controller_test.py",
+      "source_sha256": "f09063c6d2880707cd1bb337f23689758e24a3458fab4c9654e6a8e8b1bff72b",
+      "published_path": "historical/60hz/controller_test.py",
+      "published_sha256": "a7fa3d41bcb97013e4314874442df5882419da0559ef52d432900d0880233331",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/debug_server.py",
+      "source_sha256": "70acc28d334bd6066570cc94dabf9ca54c17111deda718cab00c13ac883e41da",
+      "published_path": "historical/60hz/debug_server.py",
+      "published_sha256": "70acc28d334bd6066570cc94dabf9ca54c17111deda718cab00c13ac883e41da",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/evidence/Verification.json",
+      "source_sha256": "6db7b2d6c968eab93f321be005c0435bd488519493b3a752ac0b97d883dc0210",
+      "published_path": "historical/60hz/evidence/Verification.json",
+      "published_sha256": "6db7b2d6c968eab93f321be005c0435bd488519493b3a752ac0b97d883dc0210",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/evidence/hardware-host-verification.json",
+      "source_sha256": "482e8f138d925697c372de6ab2fe4848ef7fdc1a8f9d545918a43f6952c82072",
+      "published_path": "historical/60hz/evidence/hardware-host-verification.json",
+      "published_sha256": "482e8f138d925697c372de6ab2fe4848ef7fdc1a8f9d545918a43f6952c82072",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/evidence/source-rebuild-verification.json",
+      "source_sha256": "87aabb77a88e5ee9af066be31eb18398f9824e3764594ad40d2a64dfa9bc6c9d",
+      "published_path": "historical/60hz/evidence/source-rebuild-verification.json",
+      "published_sha256": "87aabb77a88e5ee9af066be31eb18398f9824e3764594ad40d2a64dfa9bc6c9d",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/generate.py",
+      "source_sha256": "12dcc28a1c4b79e8fc07608f9e072b30821c8fefb7bd7a50a9797844f35fd76f",
+      "published_path": "historical/60hz/generate.py",
+      "published_sha256": "12dcc28a1c4b79e8fc07608f9e072b30821c8fefb7bd7a50a9797844f35fd76f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/generate_asm.py",
+      "source_sha256": "aa1e20fe1560a208e1e71ca9ce4dc04306725d211774eb4687943ac453234e06",
+      "published_path": "historical/60hz/generate_asm.py",
+      "published_sha256": "aa1e20fe1560a208e1e71ca9ce4dc04306725d211774eb4687943ac453234e06",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/generate_sprites.py",
+      "source_sha256": "76f398e06348ca8d00d493cce278a5b5e615821d00d473872a24c3f775ae126b",
+      "published_path": "historical/60hz/generate_sprites.py",
+      "published_sha256": "76f398e06348ca8d00d493cce278a5b5e615821d00d473872a24c3f775ae126b",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/package.py",
+      "source_sha256": "494daa357c4552aa9e76e6885362372f6f8558e6de55119f1549056dc7bea089",
+      "published_path": "historical/60hz/package.py",
+      "published_sha256": "e3e081496e94b8cac4d597945b02e880207fb94a0ff1579c35449117480d104c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/profile_smoke.py",
+      "source_sha256": "2b1421c636306a59f4da132af3f616cd36f50e79a33a076448be1e31369866e1",
+      "published_path": "historical/60hz/profile_smoke.py",
+      "published_sha256": "5f0f836cb3d59dac3da48ff628337cf8589022af9fa9c2cb23d83e86566e89b1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/py65-LICENSE.txt",
+      "source_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "published_path": "historical/60hz/py65-LICENSE.txt",
+      "published_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/reference.py",
+      "source_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "published_path": "historical/60hz/reference.py",
+      "published_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/requirements.txt",
+      "source_sha256": "b9edbf5f9b1944221aa6842826822ab4271f7406412ede1a7284591d33ef973c",
+      "published_path": "historical/60hz/requirements.txt",
+      "published_sha256": "b9edbf5f9b1944221aa6842826822ab4271f7406412ede1a7284591d33ef973c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/run_test.py",
+      "source_sha256": "3866ad51330942a837207f8369815cc87294e5eb7c90b3c5e6b31fd129434f54",
+      "published_path": "historical/60hz/run_test.py",
+      "published_sha256": "3866ad51330942a837207f8369815cc87294e5eb7c90b3c5e6b31fd129434f54",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/audio.c",
+      "source_sha256": "c45c61ddff24b97b947b437c2f350dd7a7b5c7e2707b36059be38f6186ce4869",
+      "published_path": "historical/60hz/src/audio.c",
+      "published_sha256": "c45c61ddff24b97b947b437c2f350dd7a7b5c7e2707b36059be38f6186ce4869",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/bus.c",
+      "source_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "published_path": "historical/60hz/src/bus.c",
+      "published_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/engine.h",
+      "source_sha256": "7a5bee212d8e2028e157e213f1ebdb66b6e7feae1aae1401b8a85d41a0922abc",
+      "published_path": "historical/60hz/src/engine.h",
+      "published_sha256": "7a5bee212d8e2028e157e213f1ebdb66b6e7feae1aae1401b8a85d41a0922abc",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/frame.c",
+      "source_sha256": "fecafe9aa2d0da53dc594d133270fb30b5d3827e033fd6cfdba48358fada56c6",
+      "published_path": "historical/60hz/src/frame.c",
+      "published_sha256": "fecafe9aa2d0da53dc594d133270fb30b5d3827e033fd6cfdba48358fada56c6",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/host.c",
+      "source_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "published_path": "historical/60hz/src/host.c",
+      "published_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/hw_sprites.c",
+      "source_sha256": "60b3caa8c0d0b31c8b3c98422f896e89919ed83d9a03b2f44311750c1ff74396",
+      "published_path": "historical/60hz/src/hw_sprites.c",
+      "published_sha256": "60b3caa8c0d0b31c8b3c98422f896e89919ed83d9a03b2f44311750c1ff74396",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/main.c",
+      "source_sha256": "5a416485339a7d42953ed6b3dc873ea1442eb224da827de9a50eef241b6128c5",
+      "published_path": "historical/60hz/src/main.c",
+      "published_sha256": "5a416485339a7d42953ed6b3dc873ea1442eb224da827de9a50eef241b6128c5",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/memory.c",
+      "source_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "published_path": "historical/60hz/src/memory.c",
+      "published_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/render.c",
+      "source_sha256": "ab301d3e9e8613d0c2112fee0fa9b08f399f7ec9a8cb8732edea10f6a7937f54",
+      "published_path": "historical/60hz/src/render.c",
+      "published_sha256": "ab301d3e9e8613d0c2112fee0fa9b08f399f7ec9a8cb8732edea10f6a7937f54",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/src/start.s",
+      "source_sha256": "7e21876362f06fc4df1457ba99abc785882cd59aab532b39abe13ae3fb175601",
+      "published_path": "historical/60hz/src/start.s",
+      "published_sha256": "7e21876362f06fc4df1457ba99abc785882cd59aab532b39abe13ae3fb175601",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/test_hw_renderer.py",
+      "source_sha256": "1614900a3b109dd85526f6a0d5f69ba8ee329959cc403f1cbb0946acc7a17a2e",
+      "published_path": "historical/60hz/test_hw_renderer.py",
+      "published_sha256": "1614900a3b109dd85526f6a0d5f69ba8ee329959cc403f1cbb0946acc7a17a2e",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/test_intrinsics.py",
+      "source_sha256": "223e2f1d10f9740becee30bed49a5e0d5253352761f06a59a5570942d2099543",
+      "published_path": "historical/60hz/test_intrinsics.py",
+      "published_sha256": "223e2f1d10f9740becee30bed49a5e0d5253352761f06a59a5570942d2099543",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/verify_clock_audio.py",
+      "source_sha256": "baca8aafa7603365c09b6185df308c4b48889fccdc7465542223331ba496b056",
+      "published_path": "historical/60hz/verify_clock_audio.py",
+      "published_sha256": "baca8aafa7603365c09b6185df308c4b48889fccdc7465542223331ba496b056",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/verify_native.py",
+      "source_sha256": "44b6574d4d1519217f7006b5ca0911ef969f5c157d882ff0b820d15ad8a2fce0",
+      "published_path": "historical/60hz/verify_native.py",
+      "published_sha256": "44b6574d4d1519217f7006b5ca0911ef969f5c157d882ff0b820d15ad8a2fce0",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/clock-source-package/verify_raster.py",
+      "source_sha256": "2fa056dc12a47bfe62579f5c9f07e00509d2b1034a760ff58d4299a97c74be24",
+      "published_path": "historical/60hz/verify_raster.py",
+      "published_sha256": "2fa056dc12a47bfe62579f5c9f07e00509d2b1034a760ff58d4299a97c74be24",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/README.txt",
+      "source_sha256": "850a11846410d4baa6f1dcca57c0280c32fbcf0e8576326ad137f11b5581456a",
+      "published_path": "historical/optimized/README.txt",
+      "published_sha256": "850a11846410d4baa6f1dcca57c0280c32fbcf0e8576326ad137f11b5581456a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/benchmark_hw.py",
+      "source_sha256": "1824c5f7272d2440c1f747e5978f2971b644109ec94f8280caa7f12f4e3f3553",
+      "published_path": "historical/optimized/benchmark_hw.py",
+      "published_sha256": "e0a3a2c70e749ee5c182fb8c226a33be3ad6040c840633a1e3dc03013d88d9c4",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/build.py",
+      "source_sha256": "f2801274417fc5142da691b1157f4fef521c0df5f76d11cc4bc663adf74bedf1",
+      "published_path": "historical/optimized/build.py",
+      "published_sha256": "43f326364842f4687be367ad0fbcbd471ec29c84f137f05d1530d1d0513836f8",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/check_coverage.py",
+      "source_sha256": "6f146b89d0d8bbd44ef1a88b1310da7e9d1f4df31956150e89345afae7c0fd0c",
+      "published_path": "historical/optimized/check_coverage.py",
+      "published_sha256": "6f146b89d0d8bbd44ef1a88b1310da7e9d1f4df31956150e89345afae7c0fd0c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/check_cpu.py",
+      "source_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "published_path": "historical/optimized/check_cpu.py",
+      "published_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/check_jump_replay.py",
+      "source_sha256": "d61a967fd3987f544a093a96bfea7aa4b3ff66a00e8ff98a4ee02ea1720e8b84",
+      "published_path": "historical/optimized/check_jump_replay.py",
+      "published_sha256": "d61a967fd3987f544a093a96bfea7aa4b3ff66a00e8ff98a4ee02ea1720e8b84",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/controller_test.py",
+      "source_sha256": "5003cdbea65290a448c7d9808a1a57017b1e2e75e6b4224002d0bbe922f47955",
+      "published_path": "historical/optimized/controller_test.py",
+      "published_sha256": "f4b3bdcef901f27d2d359535e35c391e4514eca5c8fe2751f34f4496f61f2d49",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/debug_server.py",
+      "source_sha256": "70acc28d334bd6066570cc94dabf9ca54c17111deda718cab00c13ac883e41da",
+      "published_path": "historical/optimized/debug_server.py",
+      "published_sha256": "70acc28d334bd6066570cc94dabf9ca54c17111deda718cab00c13ac883e41da",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/evidence/Verification.json",
+      "source_sha256": "6fda52f4914a1f98ef2e17788cf7887237ef60811cf1731985181276de3bd200",
+      "published_path": "historical/optimized/evidence/Verification.json",
+      "published_sha256": "6fda52f4914a1f98ef2e17788cf7887237ef60811cf1731985181276de3bd200",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/evidence/hardware-host-verification.json",
+      "source_sha256": "fa272d2d7b42e9b7684bdde263e8882e16df82fe73d5a2146de371e52b0bab2f",
+      "published_path": "historical/optimized/evidence/hardware-host-verification.json",
+      "published_sha256": "fa272d2d7b42e9b7684bdde263e8882e16df82fe73d5a2146de371e52b0bab2f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/evidence/intrinsics-verification.txt",
+      "source_sha256": "095ac82e518fa815f9d010600a39459400c97b7b4a41f8109c474759d52b5136",
+      "published_path": "historical/optimized/evidence/intrinsics-verification.txt",
+      "published_sha256": "095ac82e518fa815f9d010600a39459400c97b7b4a41f8109c474759d52b5136",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/evidence/source-rebuild-verification.json",
+      "source_sha256": "4f99e00796113100d67f32ee3b0dcc902609aebf23110105ab66b6a06f3099ef",
+      "published_path": "historical/optimized/evidence/source-rebuild-verification.json",
+      "published_sha256": "4f99e00796113100d67f32ee3b0dcc902609aebf23110105ab66b6a06f3099ef",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/generate.py",
+      "source_sha256": "12dcc28a1c4b79e8fc07608f9e072b30821c8fefb7bd7a50a9797844f35fd76f",
+      "published_path": "historical/optimized/generate.py",
+      "published_sha256": "12dcc28a1c4b79e8fc07608f9e072b30821c8fefb7bd7a50a9797844f35fd76f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/generate_asm.py",
+      "source_sha256": "aca07d962fe7fce82ff5de3b5804e3724df4af4f591b0061168966a0e9506d2e",
+      "published_path": "historical/optimized/generate_asm.py",
+      "published_sha256": "aca07d962fe7fce82ff5de3b5804e3724df4af4f591b0061168966a0e9506d2e",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/generate_sprites.py",
+      "source_sha256": "76f398e06348ca8d00d493cce278a5b5e615821d00d473872a24c3f775ae126b",
+      "published_path": "historical/optimized/generate_sprites.py",
+      "published_sha256": "76f398e06348ca8d00d493cce278a5b5e615821d00d473872a24c3f775ae126b",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/package.py",
+      "source_sha256": "494daa357c4552aa9e76e6885362372f6f8558e6de55119f1549056dc7bea089",
+      "published_path": "historical/optimized/package.py",
+      "published_sha256": "e3e081496e94b8cac4d597945b02e880207fb94a0ff1579c35449117480d104c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/profile_smoke.py",
+      "source_sha256": "2b1421c636306a59f4da132af3f616cd36f50e79a33a076448be1e31369866e1",
+      "published_path": "historical/optimized/profile_smoke.py",
+      "published_sha256": "5f0f836cb3d59dac3da48ff628337cf8589022af9fa9c2cb23d83e86566e89b1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/py65-LICENSE.txt",
+      "source_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "published_path": "historical/optimized/py65-LICENSE.txt",
+      "published_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/reference.py",
+      "source_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "published_path": "historical/optimized/reference.py",
+      "published_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/requirements.txt",
+      "source_sha256": "b9edbf5f9b1944221aa6842826822ab4271f7406412ede1a7284591d33ef973c",
+      "published_path": "historical/optimized/requirements.txt",
+      "published_sha256": "b9edbf5f9b1944221aa6842826822ab4271f7406412ede1a7284591d33ef973c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/run_test.py",
+      "source_sha256": "3866ad51330942a837207f8369815cc87294e5eb7c90b3c5e6b31fd129434f54",
+      "published_path": "historical/optimized/run_test.py",
+      "published_sha256": "3866ad51330942a837207f8369815cc87294e5eb7c90b3c5e6b31fd129434f54",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/audio.c",
+      "source_sha256": "17ff03cc35d9aa502be7d1bfbf9222feb2bdd1d5115ceea129e9e62f1831871a",
+      "published_path": "historical/optimized/src/audio.c",
+      "published_sha256": "17ff03cc35d9aa502be7d1bfbf9222feb2bdd1d5115ceea129e9e62f1831871a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/bus.c",
+      "source_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "published_path": "historical/optimized/src/bus.c",
+      "published_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/engine.h",
+      "source_sha256": "1e7595cb2eaeb69b9f64fe15799dd8b254fbee32aed304acad547d48fcb6e52b",
+      "published_path": "historical/optimized/src/engine.h",
+      "published_sha256": "1e7595cb2eaeb69b9f64fe15799dd8b254fbee32aed304acad547d48fcb6e52b",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/host.c",
+      "source_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "published_path": "historical/optimized/src/host.c",
+      "published_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/hw_sprites.c",
+      "source_sha256": "874fe4aaf5cdba7b7c4b3bd447765306576767bf880b9d2bdff365e57aa47b88",
+      "published_path": "historical/optimized/src/hw_sprites.c",
+      "published_sha256": "874fe4aaf5cdba7b7c4b3bd447765306576767bf880b9d2bdff365e57aa47b88",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/main.c",
+      "source_sha256": "0f8d5951a7e6b8a77f49e53ac3e340174d99b6ec5a1153a358f635ab583e0829",
+      "published_path": "historical/optimized/src/main.c",
+      "published_sha256": "0f8d5951a7e6b8a77f49e53ac3e340174d99b6ec5a1153a358f635ab583e0829",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/memory.c",
+      "source_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "published_path": "historical/optimized/src/memory.c",
+      "published_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/render.c",
+      "source_sha256": "f3d2dfc43e9f3859ee2a7b67560386352439078048ba27f773917aa70b99b0b1",
+      "published_path": "historical/optimized/src/render.c",
+      "published_sha256": "f3d2dfc43e9f3859ee2a7b67560386352439078048ba27f773917aa70b99b0b1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/src/start.s",
+      "source_sha256": "5f69e8fd708ff3744b0747f0ed038fcccfa0373365c55d10c6d0bd00616e747c",
+      "published_path": "historical/optimized/src/start.s",
+      "published_sha256": "5f69e8fd708ff3744b0747f0ed038fcccfa0373365c55d10c6d0bd00616e747c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/test_hw_renderer.py",
+      "source_sha256": "0edfced6b37c359ce349f1020cb04585b0cbe2e593f778146f6529dae6e6f9a4",
+      "published_path": "historical/optimized/test_hw_renderer.py",
+      "published_sha256": "0edfced6b37c359ce349f1020cb04585b0cbe2e593f778146f6529dae6e6f9a4",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/test_intrinsics.py",
+      "source_sha256": "223e2f1d10f9740becee30bed49a5e0d5253352761f06a59a5570942d2099543",
+      "published_path": "historical/optimized/test_intrinsics.py",
+      "published_sha256": "223e2f1d10f9740becee30bed49a5e0d5253352761f06a59a5570942d2099543",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/verify_native.py",
+      "source_sha256": "44b6574d4d1519217f7006b5ca0911ef969f5c157d882ff0b820d15ad8a2fce0",
+      "published_path": "historical/optimized/verify_native.py",
+      "published_sha256": "44b6574d4d1519217f7006b5ca0911ef969f5c157d882ff0b820d15ad8a2fce0",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/optimized-source-package/verify_raster.py",
+      "source_sha256": "2fa056dc12a47bfe62579f5c9f07e00509d2b1034a760ff58d4299a97c74be24",
+      "published_path": "historical/optimized/verify_raster.py",
+      "published_sha256": "2fa056dc12a47bfe62579f5c9f07e00509d2b1034a760ff58d4299a97c74be24",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/README.txt",
+      "source_sha256": "f5e8de3ded1bc5e7a0f96278873e76ddc2d1f0205954ab3d8e3b7dec89c945a9",
+      "published_path": "historical/stage-select/README.txt",
+      "published_sha256": "f5e8de3ded1bc5e7a0f96278873e76ddc2d1f0205954ab3d8e3b7dec89c945a9",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/benchmark_hw.py",
+      "source_sha256": "9e8b5021bb8ad47c3c860a5ba651e4fc11e2bcdb0b1745ff39eb2ee6e57f5f3c",
+      "published_path": "historical/stage-select/benchmark_hw.py",
+      "published_sha256": "5a1b4d9e1872da022ae46072ec0647a88b86c3c29a88ba24e9a274e1d8e28f89",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/build.py",
+      "source_sha256": "6d4c8ef3ae10e86c8dbf773626489f1918bc2000ee9729f837e01423297b0ff7",
+      "published_path": "historical/stage-select/build.py",
+      "published_sha256": "eabb838c6794cbb656759f0d3404e6f1c8aca7394917960ccc10daf2e1af7eb3",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/check_cpu.py",
+      "source_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "published_path": "historical/stage-select/check_cpu.py",
+      "published_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/check_jump_replay.py",
+      "source_sha256": "d61a967fd3987f544a093a96bfea7aa4b3ff66a00e8ff98a4ee02ea1720e8b84",
+      "published_path": "historical/stage-select/check_jump_replay.py",
+      "published_sha256": "d61a967fd3987f544a093a96bfea7aa4b3ff66a00e8ff98a4ee02ea1720e8b84",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/controller_test.py",
+      "source_sha256": "909a3fb1b6feb737afc9451caf97645b1b9489fbb3d328ad7f0557124a34df48",
+      "published_path": "historical/stage-select/controller_test.py",
+      "published_sha256": "f1d32b1034bbd38fcecd60b5c6bd6671d60bb4ee994ce4d3c089df85bf514e70",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/evidence/Verification.json",
+      "source_sha256": "0f79d7fe86d5622bf81c0315c4dc7a969c6ae79979c70219926ca9a9d1e02d9f",
+      "published_path": "historical/stage-select/evidence/Verification.json",
+      "published_sha256": "0f79d7fe86d5622bf81c0315c4dc7a969c6ae79979c70219926ca9a9d1e02d9f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/evidence/all-stages-verification.json",
+      "source_sha256": "a5e9e0a08a7f4fdf54935e7dd11ba702c9f1b11191dbee009c85aa8b2cc21c95",
+      "published_path": "historical/stage-select/evidence/all-stages-verification.json",
+      "published_sha256": "a5e9e0a08a7f4fdf54935e7dd11ba702c9f1b11191dbee009c85aa8b2cc21c95",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/evidence/final-stage-regression.json",
+      "source_sha256": "469c63aa93cccb43cde5fe49e163f060a15900c00f8052514eeee2f2c4fee79b",
+      "published_path": "historical/stage-select/evidence/final-stage-regression.json",
+      "published_sha256": "469c63aa93cccb43cde5fe49e163f060a15900c00f8052514eeee2f2c4fee79b",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/evidence/score-format-verification.json",
+      "source_sha256": "d07dc6755ba3867de8674d6e59caa1e6e30f91384464dd266f1c5d4a57d639e1",
+      "published_path": "historical/stage-select/evidence/score-format-verification.json",
+      "published_sha256": "d07dc6755ba3867de8674d6e59caa1e6e30f91384464dd266f1c5d4a57d639e1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/generate.py",
+      "source_sha256": "12dcc28a1c4b79e8fc07608f9e072b30821c8fefb7bd7a50a9797844f35fd76f",
+      "published_path": "historical/stage-select/generate.py",
+      "published_sha256": "12dcc28a1c4b79e8fc07608f9e072b30821c8fefb7bd7a50a9797844f35fd76f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/generate_asm.py",
+      "source_sha256": "aa1e20fe1560a208e1e71ca9ce4dc04306725d211774eb4687943ac453234e06",
+      "published_path": "historical/stage-select/generate_asm.py",
+      "published_sha256": "aa1e20fe1560a208e1e71ca9ce4dc04306725d211774eb4687943ac453234e06",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/generate_sprites.py",
+      "source_sha256": "76f398e06348ca8d00d493cce278a5b5e615821d00d473872a24c3f775ae126b",
+      "published_path": "historical/stage-select/generate_sprites.py",
+      "published_sha256": "76f398e06348ca8d00d493cce278a5b5e615821d00d473872a24c3f775ae126b",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/menu_test.py",
+      "source_sha256": "837da64e26d7145109201d27ca0e288dba05c0a0920c970763a5cb9aabd012a4",
+      "published_path": "historical/stage-select/menu_test.py",
+      "published_sha256": "99627b809435d13202bf5bbd1ad3e0d47bd93677fa592c6b8e7a16280fa18dcd",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/package.py",
+      "source_sha256": "494daa357c4552aa9e76e6885362372f6f8558e6de55119f1549056dc7bea089",
+      "published_path": "historical/stage-select/package.py",
+      "published_sha256": "e3e081496e94b8cac4d597945b02e880207fb94a0ff1579c35449117480d104c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/profile_smoke.py",
+      "source_sha256": "2b1421c636306a59f4da132af3f616cd36f50e79a33a076448be1e31369866e1",
+      "published_path": "historical/stage-select/profile_smoke.py",
+      "published_sha256": "5f0f836cb3d59dac3da48ff628337cf8589022af9fa9c2cb23d83e86566e89b1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/py65-LICENSE.txt",
+      "source_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "published_path": "historical/stage-select/py65-LICENSE.txt",
+      "published_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/reference.py",
+      "source_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "published_path": "historical/stage-select/reference.py",
+      "published_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/requirements.txt",
+      "source_sha256": "b9edbf5f9b1944221aa6842826822ab4271f7406412ede1a7284591d33ef973c",
+      "published_path": "historical/stage-select/requirements.txt",
+      "published_sha256": "b9edbf5f9b1944221aa6842826822ab4271f7406412ede1a7284591d33ef973c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/audio.c",
+      "source_sha256": "c45c61ddff24b97b947b437c2f350dd7a7b5c7e2707b36059be38f6186ce4869",
+      "published_path": "historical/stage-select/src/audio.c",
+      "published_sha256": "c45c61ddff24b97b947b437c2f350dd7a7b5c7e2707b36059be38f6186ce4869",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/bus.c",
+      "source_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "published_path": "historical/stage-select/src/bus.c",
+      "published_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/engine.h",
+      "source_sha256": "7a5bee212d8e2028e157e213f1ebdb66b6e7feae1aae1401b8a85d41a0922abc",
+      "published_path": "historical/stage-select/src/engine.h",
+      "published_sha256": "7a5bee212d8e2028e157e213f1ebdb66b6e7feae1aae1401b8a85d41a0922abc",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/frame.c",
+      "source_sha256": "fecafe9aa2d0da53dc594d133270fb30b5d3827e033fd6cfdba48358fada56c6",
+      "published_path": "historical/stage-select/src/frame.c",
+      "published_sha256": "fecafe9aa2d0da53dc594d133270fb30b5d3827e033fd6cfdba48358fada56c6",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/host.c",
+      "source_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "published_path": "historical/stage-select/src/host.c",
+      "published_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/hw_sprites.c",
+      "source_sha256": "60b3caa8c0d0b31c8b3c98422f896e89919ed83d9a03b2f44311750c1ff74396",
+      "published_path": "historical/stage-select/src/hw_sprites.c",
+      "published_sha256": "60b3caa8c0d0b31c8b3c98422f896e89919ed83d9a03b2f44311750c1ff74396",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/main.c",
+      "source_sha256": "94ff8dbdf736ddd47ff6f86a637d0a56250829ecc85a935bd359d0294e5bacd8",
+      "published_path": "historical/stage-select/src/main.c",
+      "published_sha256": "94ff8dbdf736ddd47ff6f86a637d0a56250829ecc85a935bd359d0294e5bacd8",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/memory.c",
+      "source_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "published_path": "historical/stage-select/src/memory.c",
+      "published_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/menu.c",
+      "source_sha256": "db4f6860ac91606d8ca7459d70253b3cd104cef1dbc388f5eaa98d879551c6ce",
+      "published_path": "historical/stage-select/src/menu.c",
+      "published_sha256": "db4f6860ac91606d8ca7459d70253b3cd104cef1dbc388f5eaa98d879551c6ce",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/menu.h",
+      "source_sha256": "a93328298f6fb515e5988d902b553c5a56e71787c4a95813c7f62b40eb55d858",
+      "published_path": "historical/stage-select/src/menu.h",
+      "published_sha256": "a93328298f6fb515e5988d902b553c5a56e71787c4a95813c7f62b40eb55d858",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/render.c",
+      "source_sha256": "1be2771c5658ec657d8500573f59d915481f9253a182340a9aa8aebd26358762",
+      "published_path": "historical/stage-select/src/render.c",
+      "published_sha256": "1be2771c5658ec657d8500573f59d915481f9253a182340a9aa8aebd26358762",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/scores.c",
+      "source_sha256": "8a636b71b16799a52b11bdf06c7f84c71bb0e8bd64ed6f498a4505e0343c772a",
+      "published_path": "historical/stage-select/src/scores.c",
+      "published_sha256": "8a636b71b16799a52b11bdf06c7f84c71bb0e8bd64ed6f498a4505e0343c772a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/src/start.s",
+      "source_sha256": "7e21876362f06fc4df1457ba99abc785882cd59aab532b39abe13ae3fb175601",
+      "published_path": "historical/stage-select/src/start.s",
+      "published_sha256": "7e21876362f06fc4df1457ba99abc785882cd59aab532b39abe13ae3fb175601",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/stage-select/extract_scores.py",
+      "source_sha256": "4baa22f56a03b6dbe13fb4d7ca8d1682179fb047eac92e9586973648523fa4a3",
+      "published_path": "historical/stage-select/stage-select/extract_scores.py",
+      "published_sha256": "b9df591cb9351cb8060564e853e0119d1d6ebe30a3a352768ef50044ed04fc71",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/stage-select/generate_previews.py",
+      "source_sha256": "22b6c87e39c488c96e3340e55aadada446178f05c1f0c5798f1e024a7b92382d",
+      "published_path": "historical/stage-select/stage-select/generate_previews.py",
+      "published_sha256": "22b6c87e39c488c96e3340e55aadada446178f05c1f0c5798f1e024a7b92382d",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/test_all_stages.py",
+      "source_sha256": "84f60786841094f31301b2e7c639115102d8d50b9940a1e0cb81950326636cc2",
+      "published_path": "historical/stage-select/test_all_stages.py",
+      "published_sha256": "84f60786841094f31301b2e7c639115102d8d50b9940a1e0cb81950326636cc2",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/test_hw_renderer.py",
+      "source_sha256": "7426150b566b21706b1c6aa3df0c9d509abf9786e1ae140d1d5b859fdf46e32a",
+      "published_path": "historical/stage-select/test_hw_renderer.py",
+      "published_sha256": "7426150b566b21706b1c6aa3df0c9d509abf9786e1ae140d1d5b859fdf46e32a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/test_intrinsics.py",
+      "source_sha256": "223e2f1d10f9740becee30bed49a5e0d5253352761f06a59a5570942d2099543",
+      "published_path": "historical/stage-select/test_intrinsics.py",
+      "published_sha256": "223e2f1d10f9740becee30bed49a5e0d5253352761f06a59a5570942d2099543",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/test_scores.py",
+      "source_sha256": "70134b5bcf56f414d17bd073a3f781008fdf7662e9972d94b64e5b248269a300",
+      "published_path": "historical/stage-select/test_scores.py",
+      "published_sha256": "70134b5bcf56f414d17bd073a3f781008fdf7662e9972d94b64e5b248269a300",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/verify_clock_audio.py",
+      "source_sha256": "d7a045411e50ffe1bf2f48ec0aa622214e6251273ca7f4344b6831e2701ff78f",
+      "published_path": "historical/stage-select/verify_clock_audio.py",
+      "published_sha256": "d7a045411e50ffe1bf2f48ec0aa622214e6251273ca7f4344b6831e2701ff78f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/verify_native.py",
+      "source_sha256": "9366149a9513f38d1591ea44b01f344542efec1cf24e13307e47f69675534627",
+      "published_path": "historical/stage-select/verify_native.py",
+      "published_sha256": "9366149a9513f38d1591ea44b01f344542efec1cf24e13307e47f69675534627",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/verify_raster.py",
+      "source_sha256": "2fa056dc12a47bfe62579f5c9f07e00509d2b1034a760ff58d4299a97c74be24",
+      "published_path": "historical/stage-select/verify_raster.py",
+      "published_sha256": "2fa056dc12a47bfe62579f5c9f07e00509d2b1034a760ff58d4299a97c74be24",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/analyze_game_audio.py",
+      "source_sha256": "57b4fd1fc1e3928b5181afd32d8996cb0246be69dd0809431b37d147f4a9cd4d",
+      "published_path": "analyze_game_audio.py",
+      "published_sha256": "57b4fd1fc1e3928b5181afd32d8996cb0246be69dd0809431b37d147f4a9cd4d",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/benchmark_hw.py",
+      "source_sha256": "9e8b5021bb8ad47c3c860a5ba651e4fc11e2bcdb0b1745ff39eb2ee6e57f5f3c",
+      "published_path": "benchmark_hw.py",
+      "published_sha256": "5a1b4d9e1872da022ae46072ec0647a88b86c3c29a88ba24e9a274e1d8e28f89",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/build.py",
+      "source_sha256": "6d4c8ef3ae10e86c8dbf773626489f1918bc2000ee9729f837e01423297b0ff7",
+      "published_path": "build.py",
+      "published_sha256": "31d22927183e91b413b70637e988b3aeb01840ac1f1d3c7798c755d10df97701",
+      "modification": "Local username path replaced when present; otherwise text preserved. Root build requires AMIGA_TOOLS and creates build directory; root package uses active Python/installed amitools and KICKSTART_FILE."
+    },
+    {
+      "source": "local-2026-10-19/work/build_audio_probe.py",
+      "source_sha256": "f09a1cb38c5cde06765cd4de699c64db3b0647c841d32fe863c73586f605bbe3",
+      "published_path": "build_audio_probe.py",
+      "published_sha256": "e31c48baa0e624833b190a939df0981a221f8e9cc0e49e3ee73fb19bc98ae070",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/check_coverage.py",
+      "source_sha256": "6f146b89d0d8bbd44ef1a88b1310da7e9d1f4df31956150e89345afae7c0fd0c",
+      "published_path": "check_coverage.py",
+      "published_sha256": "6f146b89d0d8bbd44ef1a88b1310da7e9d1f4df31956150e89345afae7c0fd0c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/check_cpu.py",
+      "source_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "published_path": "check_cpu.py",
+      "published_sha256": "136de885f6a71a49a6488aea395d086e4a6c5746249c9fdd727a0d90fcfdce6a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/check_jump_replay.py",
+      "source_sha256": "d61a967fd3987f544a093a96bfea7aa4b3ff66a00e8ff98a4ee02ea1720e8b84",
+      "published_path": "check_jump_replay.py",
+      "published_sha256": "d61a967fd3987f544a093a96bfea7aa4b3ff66a00e8ff98a4ee02ea1720e8b84",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/controller_test.py",
+      "source_sha256": "909a3fb1b6feb737afc9451caf97645b1b9489fbb3d328ad7f0557124a34df48",
+      "published_path": "controller_test.py",
+      "published_sha256": "f1d32b1034bbd38fcecd60b5c6bd6671d60bb4ee994ce4d3c089df85bf514e70",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/debug_server.py",
+      "source_sha256": "70acc28d334bd6066570cc94dabf9ca54c17111deda718cab00c13ac883e41da",
+      "published_path": "debug_server.py",
+      "published_sha256": "70acc28d334bd6066570cc94dabf9ca54c17111deda718cab00c13ac883e41da",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/diagnose_hw_raster.py",
+      "source_sha256": "52169f9164ddd1e1f23141c65eba72e23a52d0c456c80bd91bbc2e128f2e1e8a",
+      "published_path": "diagnose_hw_raster.py",
+      "published_sha256": "52169f9164ddd1e1f23141c65eba72e23a52d0c456c80bd91bbc2e128f2e1e8a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/finalize.py",
+      "source_sha256": "f80a6d485d0e8d2e1cd34a11fef0d713bed847bcd9433450a3f53ef8c944411a",
+      "published_path": "finalize.py",
+      "published_sha256": "f80a6d485d0e8d2e1cd34a11fef0d713bed847bcd9433450a3f53ef8c944411a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/generate-before-dispatch-opt.py",
+      "source_sha256": "e6535df4180fb3838411d705e4c11c2005e974ced739c49acf90ebdbe2f973cd",
+      "published_path": "generate-before-dispatch-opt.py",
+      "published_sha256": "e6535df4180fb3838411d705e4c11c2005e974ced739c49acf90ebdbe2f973cd",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/generate-v1.py",
+      "source_sha256": "7abd2b0c896ab1bedadf42714a707b44d5aaea167801a188550a22a9075a7d79",
+      "published_path": "generate-v1.py",
+      "published_sha256": "7abd2b0c896ab1bedadf42714a707b44d5aaea167801a188550a22a9075a7d79",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/generate.py",
+      "source_sha256": "12dcc28a1c4b79e8fc07608f9e072b30821c8fefb7bd7a50a9797844f35fd76f",
+      "published_path": "generate.py",
+      "published_sha256": "12dcc28a1c4b79e8fc07608f9e072b30821c8fefb7bd7a50a9797844f35fd76f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/generate_asm.py",
+      "source_sha256": "aa1e20fe1560a208e1e71ca9ce4dc04306725d211774eb4687943ac453234e06",
+      "published_path": "generate_asm.py",
+      "published_sha256": "aa1e20fe1560a208e1e71ca9ce4dc04306725d211774eb4687943ac453234e06",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/generate_sprites.py",
+      "source_sha256": "76f398e06348ca8d00d493cce278a5b5e615821d00d473872a24c3f775ae126b",
+      "published_path": "generate_sprites.py",
+      "published_sha256": "76f398e06348ca8d00d493cce278a5b5e615821d00d473872a24c3f775ae126b",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menu_test.py",
+      "source_sha256": "837da64e26d7145109201d27ca0e288dba05c0a0920c970763a5cb9aabd012a4",
+      "published_path": "menu_test.py",
+      "published_sha256": "99627b809435d13202bf5bbd1ad3e0d47bd93677fa592c6b8e7a16280fa18dcd",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/package.py",
+      "source_sha256": "494daa357c4552aa9e76e6885362372f6f8558e6de55119f1549056dc7bea089",
+      "published_path": "package.py",
+      "published_sha256": "60cc7eee46761ad3e434fe07f2b948c11121be469579ae109cd2b807c16e97e1",
+      "modification": "Local username path replaced when present; otherwise text preserved. Root build requires AMIGA_TOOLS and creates build directory; root package uses active Python/installed amitools and KICKSTART_FILE."
+    },
+    {
+      "source": "local-2026-10-19/work/prepare_clock.py",
+      "source_sha256": "8e397a5c8421c0d551bf40020c0f5b87a3565093073c2ccbe5d04ca86e5c7079",
+      "published_path": "prepare_clock.py",
+      "published_sha256": "8e397a5c8421c0d551bf40020c0f5b87a3565093073c2ccbe5d04ca86e5c7079",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/prepare_menus.py",
+      "source_sha256": "7286eb1b8b0cc27bed876f064ecb20d6b83416f45a46efdaff2fa70791cfb76c",
+      "published_path": "prepare_menus.py",
+      "published_sha256": "7286eb1b8b0cc27bed876f064ecb20d6b83416f45a46efdaff2fa70791cfb76c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/prepare_optimized.py",
+      "source_sha256": "3c45ee4e9e31aaff3025aa7a0922ce391433d4a536541437991272c8fd7ef0e6",
+      "published_path": "prepare_optimized.py",
+      "published_sha256": "3c45ee4e9e31aaff3025aa7a0922ce391433d4a536541437991272c8fd7ef0e6",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/profile_heavy.py",
+      "source_sha256": "457197543dcd46a15cbfaf8baa96dd7954e5ddba4dd9a9cb808024c444fcc4f6",
+      "published_path": "profile_heavy.py",
+      "published_sha256": "457197543dcd46a15cbfaf8baa96dd7954e5ddba4dd9a9cb808024c444fcc4f6",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/profile_smoke.py",
+      "source_sha256": "2b1421c636306a59f4da132af3f616cd36f50e79a33a076448be1e31369866e1",
+      "published_path": "profile_smoke.py",
+      "published_sha256": "5f0f836cb3d59dac3da48ff628337cf8589022af9fa9c2cb23d83e86566e89b1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/profile_source.py",
+      "source_sha256": "065ea6578ca18d3e607fb0a2fb2c650cc94049d1f6517a90f2375758e42bf1d6",
+      "published_path": "profile_source.py",
+      "published_sha256": "065ea6578ca18d3e607fb0a2fb2c650cc94049d1f6517a90f2375758e42bf1d6",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/publish_clock.py",
+      "source_sha256": "20605fd75a9fdfa7f73a77d28eef3157f7e05081097d734d30e3f22d5a4c1953",
+      "published_path": "publish_clock.py",
+      "published_sha256": "20605fd75a9fdfa7f73a77d28eef3157f7e05081097d734d30e3f22d5a4c1953",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/publish_final.py",
+      "source_sha256": "19c87b4538f5fbb8b463881755b2f56e1595dc5c3e3eb80abc05b778828c25a9",
+      "published_path": "publish_final.py",
+      "published_sha256": "19c87b4538f5fbb8b463881755b2f56e1595dc5c3e3eb80abc05b778828c25a9",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/publish_menus.py",
+      "source_sha256": "53785440aa7fb1f7a159ea94dc2f4be44b2ebf6b79a2e7bb2b5e5dc1afadf349",
+      "published_path": "publish_menus.py",
+      "published_sha256": "53785440aa7fb1f7a159ea94dc2f4be44b2ebf6b79a2e7bb2b5e5dc1afadf349",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/publish_optimized.py",
+      "source_sha256": "c50223a63dd2e2f989d6a0446ad7b98cddd908b8cdd44e17afc80ed3aa5f24de",
+      "published_path": "publish_optimized.py",
+      "published_sha256": "c50223a63dd2e2f989d6a0446ad7b98cddd908b8cdd44e17afc80ed3aa5f24de",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/reference.py",
+      "source_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "published_path": "reference.py",
+      "published_sha256": "3e0182732825be025b65a39abbcc2c80e84283958ace2d31d23ac9924f07022e",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/run_test.py",
+      "source_sha256": "3866ad51330942a837207f8369815cc87294e5eb7c90b3c5e6b31fd129434f54",
+      "published_path": "run_test.py",
+      "published_sha256": "3866ad51330942a837207f8369815cc87294e5eb7c90b3c5e6b31fd129434f54",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/test_all_stages.py",
+      "source_sha256": "84f60786841094f31301b2e7c639115102d8d50b9940a1e0cb81950326636cc2",
+      "published_path": "test_all_stages.py",
+      "published_sha256": "84f60786841094f31301b2e7c639115102d8d50b9940a1e0cb81950326636cc2",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/test_hw_renderer.py",
+      "source_sha256": "7426150b566b21706b1c6aa3df0c9d509abf9786e1ae140d1d5b859fdf46e32a",
+      "published_path": "test_hw_renderer.py",
+      "published_sha256": "7426150b566b21706b1c6aa3df0c9d509abf9786e1ae140d1d5b859fdf46e32a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/test_intrinsics.py",
+      "source_sha256": "223e2f1d10f9740becee30bed49a5e0d5253352761f06a59a5570942d2099543",
+      "published_path": "test_intrinsics.py",
+      "published_sha256": "223e2f1d10f9740becee30bed49a5e0d5253352761f06a59a5570942d2099543",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/test_scores.py",
+      "source_sha256": "70134b5bcf56f414d17bd073a3f781008fdf7662e9972d94b64e5b248269a300",
+      "published_path": "test_scores.py",
+      "published_sha256": "70134b5bcf56f414d17bd073a3f781008fdf7662e9972d94b64e5b248269a300",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/verify_clock_audio.py",
+      "source_sha256": "d7a045411e50ffe1bf2f48ec0aa622214e6251273ca7f4344b6831e2701ff78f",
+      "published_path": "verify_clock_audio.py",
+      "published_sha256": "d7a045411e50ffe1bf2f48ec0aa622214e6251273ca7f4344b6831e2701ff78f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/verify_native.py",
+      "source_sha256": "9366149a9513f38d1591ea44b01f344542efec1cf24e13307e47f69675534627",
+      "published_path": "verify_native.py",
+      "published_sha256": "9366149a9513f38d1591ea44b01f344542efec1cf24e13307e47f69675534627",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/verify_raster.py",
+      "source_sha256": "2fa056dc12a47bfe62579f5c9f07e00509d2b1034a760ff58d4299a97c74be24",
+      "published_path": "verify_raster.py",
+      "published_sha256": "2fa056dc12a47bfe62579f5c9f07e00509d2b1034a760ff58d4299a97c74be24",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/audio.c",
+      "source_sha256": "c45c61ddff24b97b947b437c2f350dd7a7b5c7e2707b36059be38f6186ce4869",
+      "published_path": "src/audio.c",
+      "published_sha256": "c45c61ddff24b97b947b437c2f350dd7a7b5c7e2707b36059be38f6186ce4869",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/bus.c",
+      "source_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "published_path": "src/bus.c",
+      "published_sha256": "15b80e361814c4e2f0833525ae5814ece4c9bb75514e03039a988dcd162451e1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/engine.h",
+      "source_sha256": "7a5bee212d8e2028e157e213f1ebdb66b6e7feae1aae1401b8a85d41a0922abc",
+      "published_path": "src/engine.h",
+      "published_sha256": "7a5bee212d8e2028e157e213f1ebdb66b6e7feae1aae1401b8a85d41a0922abc",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/frame.c",
+      "source_sha256": "fecafe9aa2d0da53dc594d133270fb30b5d3827e033fd6cfdba48358fada56c6",
+      "published_path": "src/frame.c",
+      "published_sha256": "fecafe9aa2d0da53dc594d133270fb30b5d3827e033fd6cfdba48358fada56c6",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/host.c",
+      "source_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "published_path": "src/host.c",
+      "published_sha256": "52b11a41faf75a75dc065097c4072286f71b92ae28ffb3f65bf3217c52c9a365",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/hw_sprites.c",
+      "source_sha256": "60b3caa8c0d0b31c8b3c98422f896e89919ed83d9a03b2f44311750c1ff74396",
+      "published_path": "src/hw_sprites.c",
+      "published_sha256": "60b3caa8c0d0b31c8b3c98422f896e89919ed83d9a03b2f44311750c1ff74396",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/main.c",
+      "source_sha256": "94ff8dbdf736ddd47ff6f86a637d0a56250829ecc85a935bd359d0294e5bacd8",
+      "published_path": "src/main.c",
+      "published_sha256": "94ff8dbdf736ddd47ff6f86a637d0a56250829ecc85a935bd359d0294e5bacd8",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/memory.c",
+      "source_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "published_path": "src/memory.c",
+      "published_sha256": "bf3cbcb9b8cf7cf7c9ebc2ac83163837c822bb44d0cc8322c5381d2654844811",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/menu.c",
+      "source_sha256": "db4f6860ac91606d8ca7459d70253b3cd104cef1dbc388f5eaa98d879551c6ce",
+      "published_path": "src/menu.c",
+      "published_sha256": "db4f6860ac91606d8ca7459d70253b3cd104cef1dbc388f5eaa98d879551c6ce",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/menu.h",
+      "source_sha256": "a93328298f6fb515e5988d902b553c5a56e71787c4a95813c7f62b40eb55d858",
+      "published_path": "src/menu.h",
+      "published_sha256": "a93328298f6fb515e5988d902b553c5a56e71787c4a95813c7f62b40eb55d858",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/render.c",
+      "source_sha256": "1be2771c5658ec657d8500573f59d915481f9253a182340a9aa8aebd26358762",
+      "published_path": "src/render.c",
+      "published_sha256": "1be2771c5658ec657d8500573f59d915481f9253a182340a9aa8aebd26358762",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/scores.c",
+      "source_sha256": "8a636b71b16799a52b11bdf06c7f84c71bb0e8bd64ed6f498a4505e0343c772a",
+      "published_path": "src/scores.c",
+      "published_sha256": "8a636b71b16799a52b11bdf06c7f84c71bb0e8bd64ed6f498a4505e0343c772a",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/src/start.s",
+      "source_sha256": "7e21876362f06fc4df1457ba99abc785882cd59aab532b39abe13ae3fb175601",
+      "published_path": "src/start.s",
+      "published_sha256": "7e21876362f06fc4df1457ba99abc785882cd59aab532b39abe13ae3fb175601",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/stage-select/extract_scores.py",
+      "source_sha256": "4baa22f56a03b6dbe13fb4d7ca8d1682179fb047eac92e9586973648523fa4a3",
+      "published_path": "stage-select/extract_scores.py",
+      "published_sha256": "b9df591cb9351cb8060564e853e0119d1d6ebe30a3a352768ef50044ed04fc71",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/stage-select/generate_previews.py",
+      "source_sha256": "22b6c87e39c488c96e3340e55aadada446178f05c1f0c5798f1e024a7b92382d",
+      "published_path": "stage-select/generate_previews.py",
+      "published_sha256": "22b6c87e39c488c96e3340e55aadada446178f05c1f0c5798f1e024a7b92382d",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/requirements.txt",
+      "source_sha256": "b9edbf5f9b1944221aa6842826822ab4271f7406412ede1a7284591d33ef973c",
+      "published_path": "requirements.txt",
+      "published_sha256": "b9edbf5f9b1944221aa6842826822ab4271f7406412ede1a7284591d33ef973c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/py65-LICENSE.txt",
+      "source_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "published_path": "py65-LICENSE.txt",
+      "published_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/evidence/Verification.json",
+      "source_sha256": "0f79d7fe86d5622bf81c0315c4dc7a969c6ae79979c70219926ca9a9d1e02d9f",
+      "published_path": "evidence/Verification.json",
+      "published_sha256": "0f79d7fe86d5622bf81c0315c4dc7a969c6ae79979c70219926ca9a9d1e02d9f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/evidence/all-stages-verification.json",
+      "source_sha256": "a5e9e0a08a7f4fdf54935e7dd11ba702c9f1b11191dbee009c85aa8b2cc21c95",
+      "published_path": "evidence/all-stages-verification.json",
+      "published_sha256": "a5e9e0a08a7f4fdf54935e7dd11ba702c9f1b11191dbee009c85aa8b2cc21c95",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/evidence/final-stage-regression.json",
+      "source_sha256": "469c63aa93cccb43cde5fe49e163f060a15900c00f8052514eeee2f2c4fee79b",
+      "published_path": "evidence/final-stage-regression.json",
+      "published_sha256": "469c63aa93cccb43cde5fe49e163f060a15900c00f8052514eeee2f2c4fee79b",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/menus-source-package/evidence/score-format-verification.json",
+      "source_sha256": "d07dc6755ba3867de8674d6e59caa1e6e30f91384464dd266f1c5d4a57d639e1",
+      "published_path": "evidence/score-format-verification.json",
+      "published_sha256": "d07dc6755ba3867de8674d6e59caa1e6e30f91384464dd266f1c5d4a57d639e1",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/Bump-N-Jump-A1200-Handoff/A1200-TIPS-AND-TRICKS.md",
+      "source_sha256": "132415065013e9c139b7282eaad718f7d99702fc62b1bb679e5ef7a33e109a4c",
+      "published_path": "docs/handoff-2026-10-19/A1200-TIPS-AND-TRICKS.md",
+      "published_sha256": "132415065013e9c139b7282eaad718f7d99702fc62b1bb679e5ef7a33e109a4c",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/Bump-N-Jump-A1200-Handoff/PROJECT-FILE-MAP.md",
+      "source_sha256": "784f80df5b63727e19b19a051ad525b648a8638d3a046afad11271f1a52eb101",
+      "published_path": "docs/handoff-2026-10-19/PROJECT-FILE-MAP.md",
+      "published_sha256": "784f80df5b63727e19b19a051ad525b648a8638d3a046afad11271f1a52eb101",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/work/Bump-N-Jump-A1200-Handoff/STATUS-AND-NEXT-STEPS.md",
+      "source_sha256": "b11d604996796f3e0adb43d5aaf07cf4d11f7f743dba442ce3160aea43ab71cc",
+      "published_path": "docs/handoff-2026-10-19/STATUS-AND-NEXT-STEPS.md",
+      "published_sha256": "b11d604996796f3e0adb43d5aaf07cf4d11f7f743dba442ce3160aea43ab71cc",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/outputs/BumpNJump-A1200-60Hz-SHA256SUMS.txt",
+      "source_sha256": "0cd759a9f784f683c0be0a5610d18123a8271e14b578b7c68b341760e96459e8",
+      "published_path": "docs/release-checksums/BumpNJump-A1200-60Hz-SHA256SUMS.txt",
+      "published_sha256": "0cd759a9f784f683c0be0a5610d18123a8271e14b578b7c68b341760e96459e8",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/outputs/BumpNJump-A1200-Optimized-SHA256SUMS.txt",
+      "source_sha256": "e93c5b8815d6c9f183de3b26c9e1716559f8cf97a8d61bb1e81704752da3279f",
+      "published_path": "docs/release-checksums/BumpNJump-A1200-Optimized-SHA256SUMS.txt",
+      "published_sha256": "e93c5b8815d6c9f183de3b26c9e1716559f8cf97a8d61bb1e81704752da3279f",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/outputs/BumpNJump-A1200-StageSelect-SHA256SUMS.txt",
+      "source_sha256": "377ac5a0305bd2b4c163a18efd9d11d266819dd8f628521b788ef2309c71fafb",
+      "published_path": "docs/release-checksums/BumpNJump-A1200-StageSelect-SHA256SUMS.txt",
+      "published_sha256": "377ac5a0305bd2b4c163a18efd9d11d266819dd8f628521b788ef2309c71fafb",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    },
+    {
+      "source": "local-2026-10-19/outputs/SHA256SUMS.txt",
+      "source_sha256": "694bfadba5810f538fb7cc71259f0232ab41a8a86bc5fda0f6be8d064b534552",
+      "published_path": "docs/release-checksums/SHA256SUMS.txt",
+      "published_sha256": "694bfadba5810f538fb7cc71259f0232ab41a8a86bc5fda0f6be8d064b534552",
+      "modification": "Local username path replaced when present; otherwise text preserved."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+BUMP PROGRESS field=500 tick=0 mode=0
+BUMP TAKEOVER field=647 tick=0 mode=0
+BUMP TITLE field=805 tick=189 mode=2
+BUMP START_KEY field=837 tick=227 mode=5
+BUMP PROGRESS field=1000 tick=423 mode=9
+BUMP GAMEPLAY field=1209 tick=676 mode=12
+BUMP FIRE_DOWN field=1297 tick=763 mode=12
+BUMP JUMP_CONFIRMED field=1303 tick=769 mode=12
+BUMP FIRE_UP field=1453 tick=909 mode=12
+BUMP LEFT_DOWN field=1465 tick=919 mode=12
+BUMP PROGRESS field=1500 tick=949 mode=12
+BUMP LEFT_UP field=1515 tick=962 mode=12
+BUMP PAUSE field=1569 tick=1008 mode=12
+BUMP RESUME field=1632 tick=1157 mode=12
+BUMP ESCAPE field=1822 tick=1316 mode=12

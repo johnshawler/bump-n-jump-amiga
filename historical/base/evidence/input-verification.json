@@ -1,0 +1,27 @@
+{
+  "fire": {
+    "source_ticks_held": 258,
+    "longest_hold_ticks": 144,
+    "presses": 2
+  },
+  "start": {
+    "source_ticks_held": 59,
+    "longest_hold_ticks": 30,
+    "presses": 3
+  },
+  "up": {
+    "source_ticks_held": 319,
+    "longest_hold_ticks": 319,
+    "presses": 1
+  },
+  "left": {
+    "source_ticks_held": 42,
+    "longest_hold_ticks": 42,
+    "presses": 1
+  },
+  "right": {
+    "source_ticks_held": 18,
+    "longest_hold_ticks": 18,
+    "presses": 1
+  }
+}

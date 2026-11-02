@@ -1,0 +1,21 @@
+{
+  "jump_sequences": [
+    {
+      "start_tick": 768,
+      "next_non_jump_tick": 864,
+      "duration_ticks": 96,
+      "landing_mode": 1,
+      "release_tick": 912,
+      "retrigger_before_release": false
+    },
+    {
+      "start_tick": 1188,
+      "next_non_jump_tick": 1284,
+      "duration_ticks": 96,
+      "landing_mode": 1,
+      "release_tick": 1302,
+      "retrigger_before_release": false
+    }
+  ],
+  "reference_replay_of_exact_native_hardware_inputs": "PASS"
+}

@@ -1,0 +1,6 @@
+{
+  "clean_source_build": "PASS",
+  "parsed_hunk_code_data_bss_relocations_symbols": "IDENTICAL",
+  "raw_file_padding": "elf2hunk may vary ignored null-terminated debug-symbol padding",
+  "clean_HDF_packaging": "PASS"
+}
